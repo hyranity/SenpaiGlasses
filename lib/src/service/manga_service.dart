@@ -1,19 +1,22 @@
 import 'package:dio/dio.dart';
+import 'package:senpai_glasses/src/models/manga.dart';
 import 'package:senpai_glasses/src/service/service.dart';
 
 class MangaService extends Service {
-  static searchByTitle(String title) {
+  static Future<MangaResponseList> searchByTitle(String title) async {
     var parameter = {"title": title};
 
-    print(Service.options.headers.toString());
-
     try {
-      return Service.dio.get(
+      var res = await Service.dio.get(
         "manga",
         queryParameters: parameter,
       );
+
+      return MangaResponseList.fromJson(res.data);
     } on Exception catch (e) {
       print(e);
     }
+
+    return null;
   }
 }

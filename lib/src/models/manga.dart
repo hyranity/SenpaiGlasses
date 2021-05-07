@@ -3,23 +3,65 @@ import 'package:json_annotation/json_annotation.dart';
 part 'manga.g.dart';
 
 @JsonSerializable()
+class MangaResponseList {
+  final List<MangaResponse> results;
+  final int total;
+
+  MangaResponseList(this.results, this.total);
+
+  factory MangaResponseList.fromJson(Map<String, dynamic> json) =>
+      _$MangaResponseListFromJson(json);
+
+  Map<String, dynamic> toJson() => _$MangaResponseListToJson(this);
+}
+
+@JsonSerializable()
+class MangaResponse {
+  final String result;
+  final MangaData data;
+
+  MangaResponse(this.result, this.data);
+
+  factory MangaResponse.fromJson(Map<String, dynamic> json) =>
+      _$MangaResponseFromJson(json);
+
+  Map<String, dynamic> toJson() => _$MangaResponseToJson(this);
+}
+
+@JsonSerializable()
+class MangaData {
+  final String id;
+  final String type;
+  final Manga attributes;
+
+  MangaData(this.id, this.type, this.attributes);
+
+  factory MangaData.fromJson(Map<String, dynamic> json) =>
+      _$MangaDataFromJson(json);
+
+  Map<String, dynamic> toJson() => _$MangaDataToJson(this);
+}
+
+// For responses
+@JsonSerializable()
 class Manga {
-  final String title;
-  final String description;
   final String originalLanguage;
   final String publicationDemographic;
   final String status;
   final String contentRating;
   final String modNotes;
 
+  final String lastChapter;
+
   final int year;
   final int lastVolume;
-  final int lastChapter;
   final int version;
 
   final List<String> alternateTitles;
   final List<String> authors;
   final List<String> artists;
+  final Map<String, String> title;
+  final Map<String, String> description;
 
   Manga(
       this.title,
@@ -37,6 +79,7 @@ class Manga {
       this.authors,
       this.artists);
 
+  @override
   factory Manga.fromJson(Map<String, dynamic> json) => _$MangaFromJson(json);
 
   Map<String, dynamic> toJson() => _$MangaToJson(this);

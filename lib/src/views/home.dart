@@ -17,7 +17,7 @@ class _HomeState extends State<Home> {
 
   searchManga(String search) async {
     var response = await MangaService.searchByTitle(search);
-    print(response);
+    print(response.results.length);
   }
 
   @override
