@@ -3,6 +3,7 @@ import 'package:senpai_glasses/src/service/service.dart';
 import 'package:senpai_glasses/src/util/app.dart';
 import 'package:senpai_glasses/src/util/theme.dart';
 import 'package:senpai_glasses/src/views/home.dart';
+import 'package:senpai_glasses/src/views/main_view.dart';
 
 void main() {
   App app = App();
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      home: MainView(),
     );
   }
 }

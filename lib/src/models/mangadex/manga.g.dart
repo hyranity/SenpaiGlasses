@@ -14,6 +14,8 @@ MangaResponseList _$MangaResponseListFromJson(Map<String, dynamic> json) {
             : MangaResponse.fromJson(e as Map<String, dynamic>))
         ?.toList(),
     json['total'] as int,
+    json['offset'] as int,
+    json['limit'] as int,
   );
 }
 
@@ -21,6 +23,8 @@ Map<String, dynamic> _$MangaResponseListToJson(MangaResponseList instance) =>
     <String, dynamic>{
       'results': instance.results,
       'total': instance.total,
+      'offset': instance.offset,
+      'limit': instance.limit,
     };
 
 MangaResponse _$MangaResponseFromJson(Map<String, dynamic> json) {

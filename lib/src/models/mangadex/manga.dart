@@ -6,8 +6,10 @@ part 'manga.g.dart';
 class MangaResponseList {
   final List<MangaResponse> results;
   final int total;
+  final int offset;
+  final int limit;
 
-  MangaResponseList(this.results, this.total);
+  MangaResponseList(this.results, this.total, this.offset, this.limit);
 
   factory MangaResponseList.fromJson(Map<String, dynamic> json) =>
       _$MangaResponseListFromJson(json);

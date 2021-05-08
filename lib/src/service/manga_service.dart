@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:senpai_glasses/src/models/manga.dart';
+import 'package:senpai_glasses/src/models/mangadex/manga.dart';
 import 'package:senpai_glasses/src/service/service.dart';
 
 class MangaService extends Service {

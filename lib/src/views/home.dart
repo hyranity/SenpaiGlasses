@@ -22,47 +22,44 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: App().theme.background,
-      body: Center(
-        child: Container(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text("Senpai Glasses",
-                  style: GoogleFonts.poppins(
-                    fontSize: 50,
-                    fontWeight: FontWeight.w500,
-                    color: App().theme.accent,
-                  )),
-              SizedBox(height: 30),
-              Container(
-                width: MediaQuery.of(context).size.width * 0.7,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: App().theme.inputBackground,
-                ),
-                child: TextField(
-                  controller: searchController,
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.poppins(
-                    fontSize: 30,
-                    fontWeight: FontWeight.w400,
-                    color: App().theme.primary,
-                  ),
-                  onSubmitted: searchManga,
-                  decoration: InputDecoration(
-                      hintText: "Search manga",
-                      hintStyle: GoogleFonts.poppins(
-                        fontSize: 30,
-                        fontWeight: FontWeight.w400,
-                        color: App().theme.primary.withOpacity(0.5),
-                      )),
-                ),
+    return Center(
+      child: Container(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("Senpai Glasses",
+                style: GoogleFonts.poppins(
+                  fontSize: 50,
+                  fontWeight: FontWeight.w500,
+                  color: App().theme.accent,
+                )),
+            SizedBox(height: 30),
+            Container(
+              width: MediaQuery.of(context).size.width * 0.7,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: App().theme.inputBackground,
               ),
-            ],
-          ),
+              child: TextField(
+                controller: searchController,
+                textAlign: TextAlign.center,
+                style: GoogleFonts.poppins(
+                  fontSize: 30,
+                  fontWeight: FontWeight.w400,
+                  color: App().theme.primary,
+                ),
+                onSubmitted: searchManga,
+                decoration: InputDecoration(
+                    hintText: "Search manga",
+                    hintStyle: GoogleFonts.poppins(
+                      fontSize: 30,
+                      fontWeight: FontWeight.w400,
+                      color: App().theme.primary.withOpacity(0.5),
+                    )),
+              ),
+            ),
+          ],
         ),
       ),
     );

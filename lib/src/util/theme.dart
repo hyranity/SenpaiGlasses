@@ -5,6 +5,7 @@ abstract class ThemeBase {
   Color get primary;
   Color get accent;
   Color get inputBackground;
+  Color get inputText;
 }
 
 class MainTheme implements ThemeBase {
@@ -15,8 +16,11 @@ class MainTheme implements ThemeBase {
   Color get primary => Colors.white;
 
   @override
-  Color get accent => Color(0xff627cbd);
+  Color get accent => Color(0xffFD6543);
 
   @override
-  Color get inputBackground => Color(0xff57617a);
+  Color get inputBackground => Color(0xff6E7386);
+
+  @override
+  Color get inputText => Color(0xffAFB3C6);
 }
