@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:senpai_glasses/src/common/manager/page_manager.dart';
 import 'package:senpai_glasses/src/common/ui/header.dart';
 
@@ -10,20 +11,20 @@ class MainBody extends StatefulWidget {
 }
 
 class _MainBodyState extends State<MainBody> {
-  int pageIndex = 0;
-
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
-        children: [
-          Header(),
-          IndexedStack(
-            index: pageIndex,
-            children: PageManager.headerPages,
-          ),
-        ],
-      ),
+      child: Consumer<PageManager>(builder: (context, pageManager, child) {
+        return Column(
+          children: [
+            Header(),
+            IndexedStack(
+              index: pageManager.currentPageIndex,
+              children: PageManager().headerPages,
+            ),
+          ],
+        );
+      }),
     );
   }
 }

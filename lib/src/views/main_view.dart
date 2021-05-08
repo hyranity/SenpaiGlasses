@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:senpai_glasses/src/common/ui/main_body.dart';
+import 'package:senpai_glasses/src/common/ui/main_screen.dart';
 import 'package:senpai_glasses/src/util/app.dart';
 
 class MainView extends StatefulWidget {

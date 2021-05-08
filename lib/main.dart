@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:senpai_glasses/src/common/manager/page_manager.dart';
 import 'package:senpai_glasses/src/service/service.dart';
 import 'package:senpai_glasses/src/util/app.dart';
 import 'package:senpai_glasses/src/util/theme.dart';
 import 'package:senpai_glasses/src/views/home.dart';
 import 'package:senpai_glasses/src/views/main_view.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   App app = App();
@@ -11,7 +13,12 @@ void main() {
   app.theme = MainTheme();
   Service.setup();
 
-  runApp(MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => PageManager(),
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
