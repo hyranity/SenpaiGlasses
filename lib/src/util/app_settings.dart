@@ -17,12 +17,12 @@ class AppSettings with ChangeNotifier {
   ThemeBase theme;
   String defaultImageUrl = "https://mrb.imgix.net/assets/default-book.png";
 
-  PageBase _currentPage = MangaDetailsPage();
+  PageBase _currentPage = HomePage();
 
   BuildContext get context => NavigationService().navigatorKey.currentContext;
 
   // ! Set to false if not debugging
-  bool debug = true;
+  bool debug = false;
 
   bool get isMobile {
     return MediaQuery.of(context).size.width * 0.6 <= 500;

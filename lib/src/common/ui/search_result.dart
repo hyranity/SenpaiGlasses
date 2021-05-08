@@ -25,7 +25,7 @@ class _SearchResultState extends State<SearchResult> {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        MangaDetails.mangaResponse = widget.manga;
+        MangaDetails.mangaId = widget.manga.data.id;
         AppSettings().navigate(MangaDetailsPage());
       },
       child: Container(

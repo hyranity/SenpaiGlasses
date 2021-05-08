@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:senpai_glasses/src/common/ui/loader.dart';
 import 'package:senpai_glasses/src/common/ui/search_result.dart';
 import 'package:senpai_glasses/src/models/mangadex/manga.dart';
+import 'package:senpai_glasses/src/service/manga_service.dart';
 import 'package:senpai_glasses/src/util/app_settings.dart';
 import 'package:senpai_glasses/src/util/test.dart';
 
@@ -26,7 +28,14 @@ class _SearchBarState extends State<SearchBar> {
   searchManga(String search) async {
     setState(() {
       showSearchResult = true;
-      response = Test.testMangaList();
+
+      // Use test JSON if debugging
+      if (AppSettings().debug) {
+        response = Test.testMangaList();
+        return;
+      }
+
+      response = MangadexService().searchByTitle(search);
     });
   }
 
@@ -83,6 +92,10 @@ class _SearchBarState extends State<SearchBar> {
           builder: (context, snapshot) {
             if (snapshot.connectionState != ConnectionState.done) {
               return CircularProgressIndicator();
+            }
+
+            if (!snapshot.hasData) {
+              return Text("No manga found");
             }
 
             return ListView.separated(

@@ -75,10 +75,17 @@ Manga _$MangaFromJson(Map<String, dynamic> json) {
     json['lastVolume'] as int,
     json['lastChapter'] as String,
     json['version'] as int,
-    (json['alternateTitles'] as List)?.map((e) => e as String)?.toList(),
+    (json['altTitles'] as List)
+        ?.map((e) => (e as Map<String, dynamic>)?.map(
+              (k, e) => MapEntry(k, e as String),
+            ))
+        ?.toList(),
     (json['authors'] as List)?.map((e) => e as String)?.toList(),
     (json['artists'] as List)?.map((e) => e as String)?.toList(),
     json['imageUrl'] as String,
+    json['links'] == null
+        ? null
+        : MangaLinks.fromJson(json['links'] as Map<String, dynamic>),
   );
 }
 
@@ -93,9 +100,35 @@ Map<String, dynamic> _$MangaToJson(Manga instance) => <String, dynamic>{
       'year': instance.year,
       'lastVolume': instance.lastVolume,
       'version': instance.version,
-      'alternateTitles': instance.alternateTitles,
+      'altTitles': instance.altTitles,
       'authors': instance.authors,
       'artists': instance.artists,
       'title': instance.title,
       'description': instance.description,
+      'links': instance.links,
+    };
+
+MangaLinks _$MangaLinksFromJson(Map<String, dynamic> json) {
+  return MangaLinks(
+    json['al'] as String,
+    json['ap'] as String,
+    json['bw'] as String,
+    json['kt'] as String,
+    json['mu'] as String,
+    json['amz'] as String,
+    json['mal'] as String,
+    json['engtl'] as String,
+  );
+}
+
+Map<String, dynamic> _$MangaLinksToJson(MangaLinks instance) =>
+    <String, dynamic>{
+      'al': instance.al,
+      'ap': instance.ap,
+      'bw': instance.bw,
+      'kt': instance.kt,
+      'mu': instance.mu,
+      'amz': instance.amz,
+      'mal': instance.mal,
+      'engtl': instance.engtl,
     };

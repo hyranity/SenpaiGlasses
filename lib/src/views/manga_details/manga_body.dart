@@ -85,6 +85,10 @@ class _MangaBodyState extends State<MangaBody> {
   }
 
   GestureDetector description(BuildContext context) {
+    String description = widget.malManga == null
+        ? widget.manga.description["en"] ?? ''
+        : widget.malManga.synopsis;
+
     return GestureDetector(
       onTap: () => setState(() => expandDesc = expandDesc == false),
       child: Container(
@@ -94,7 +98,7 @@ class _MangaBodyState extends State<MangaBody> {
               expandDesc ? CrossFadeState.showFirst : CrossFadeState.showSecond,
           duration: Duration(milliseconds: 300),
           firstChild: Text(
-            '${widget.malManga.synopsis}',
+            '$description',
             maxLines: null,
             style: GoogleFonts.poppins(
               fontSize: 18,
@@ -103,7 +107,7 @@ class _MangaBodyState extends State<MangaBody> {
             ),
           ),
           secondChild: Text(
-            '${widget.malManga.synopsis}',
+            '$description',
             overflow: TextOverflow.ellipsis,
             maxLines: 5,
             style: GoogleFonts.poppins(
@@ -118,6 +122,14 @@ class _MangaBodyState extends State<MangaBody> {
   }
 
   Widget imageAndStats() {
+    String imageUrl = widget.malManga == null
+        ? AppSettings().defaultImageUrl ?? ''
+        : widget.malManga.image_url ?? AppSettings().defaultImageUrl;
+
+    String altTitles = widget.malManga == null
+        ? widget.manga.altTitles.first['en']
+        : widget.malManga.title_english;
+
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Container(
@@ -128,7 +140,7 @@ class _MangaBodyState extends State<MangaBody> {
             Container(
               height: 330,
               child: Image.network(
-                '${widget.malManga.image_url ?? AppSettings().defaultImageUrl}',
+                '$imageUrl',
                 fit: BoxFit.cover,
               ),
             ),
@@ -139,7 +151,7 @@ class _MangaBodyState extends State<MangaBody> {
               children: [
                 SizedBox(height: 20),
                 Text(
-                  '${widget.malManga.title}',
+                  '${widget.manga.title['en']}',
                   overflow: TextOverflow.ellipsis,
                   maxLines: 2,
                   style: GoogleFonts.poppins(
@@ -151,7 +163,7 @@ class _MangaBodyState extends State<MangaBody> {
                 ),
                 SizedBox(height: 10),
                 Text(
-                  '${widget.malManga.title_english}',
+                  '$altTitles',
                   overflow: TextOverflow.ellipsis,
                   softWrap: false,
                   style: GoogleFonts.poppins(
@@ -162,53 +174,60 @@ class _MangaBodyState extends State<MangaBody> {
                   ),
                 ),
                 SizedBox(height: 50),
-                HorizontalStats(
-                  children: [
-                    Row(
-                      children: [
-                        Container(
-                          //padding: EdgeInsets.only(bottom: 7),
-                          child: Icon(
-                            Icons.star,
-                            color: AppSettings().theme.primary,
-                            size: 25,
+                widget.malManga == null
+                    ? SizedBox.shrink()
+                    : HorizontalStats(
+                        children: [
+                          Row(
+                            children: [
+                              Container(
+                                //padding: EdgeInsets.only(bottom: 7),
+                                child: Icon(
+                                  Icons.star,
+                                  color: AppSettings().theme.primary,
+                                  size: 25,
+                                ),
+                              ),
+                              SizedBox(width: 7),
+                              Text(
+                                '${(widget.malManga.score == null ? '' : widget.malManga.score.toStringAsFixed(1))}',
+                                overflow: TextOverflow.ellipsis,
+                                softWrap: false,
+                                style: GoogleFonts.poppins(
+                                  fontSize: 25,
+                                  fontWeight: FontWeight.w600,
+                                  color: AppSettings()
+                                      .theme
+                                      .primary
+                                      .withOpacity(0.5),
+                                ),
+                              ),
+                            ],
                           ),
-                        ),
-                        SizedBox(width: 7),
-                        Text(
-                          '${(widget.malManga.score.toStringAsFixed(1) ?? '')}',
-                          overflow: TextOverflow.ellipsis,
-                          softWrap: false,
-                          style: GoogleFonts.poppins(
-                            fontSize: 25,
-                            fontWeight: FontWeight.w600,
-                            color: AppSettings().theme.primary.withOpacity(0.5),
+                          Text(
+                            '${(widget.malManga.status ?? '')}',
+                            overflow: TextOverflow.ellipsis,
+                            softWrap: false,
+                            style: GoogleFonts.poppins(
+                              fontSize: 25,
+                              fontWeight: FontWeight.w600,
+                              color:
+                                  AppSettings().theme.primary.withOpacity(0.5),
+                            ),
                           ),
-                        ),
-                      ],
-                    ),
-                    Text(
-                      '${(widget.malManga.status ?? '')}',
-                      overflow: TextOverflow.ellipsis,
-                      softWrap: false,
-                      style: GoogleFonts.poppins(
-                        fontSize: 25,
-                        fontWeight: FontWeight.w600,
-                        color: AppSettings().theme.primary.withOpacity(0.5),
-                      ),
-                    ),
-                    Text(
-                      '#${(widget.malManga.rank ?? '')}',
-                      overflow: TextOverflow.ellipsis,
-                      softWrap: false,
-                      style: GoogleFonts.poppins(
-                        fontSize: 25,
-                        fontWeight: FontWeight.w600,
-                        color: AppSettings().theme.primary.withOpacity(0.5),
-                      ),
-                    ),
-                  ],
-                )
+                          Text(
+                            '#${(widget.malManga.rank ?? '')}',
+                            overflow: TextOverflow.ellipsis,
+                            softWrap: false,
+                            style: GoogleFonts.poppins(
+                              fontSize: 25,
+                              fontWeight: FontWeight.w600,
+                              color:
+                                  AppSettings().theme.primary.withOpacity(0.5),
+                            ),
+                          ),
+                        ],
+                      )
               ],
             ),
           ],
@@ -218,6 +237,10 @@ class _MangaBodyState extends State<MangaBody> {
   }
 
   Widget backgroundImage(BuildContext context, {Widget child}) {
+    String imageUrl = widget.malManga == null
+        ? AppSettings().defaultImageUrl ?? ''
+        : widget.malManga.image_url ?? AppSettings().defaultImageUrl;
+
     return Stack(
       children: [
         // Actual image
@@ -227,8 +250,7 @@ class _MangaBodyState extends State<MangaBody> {
             child: FadeInImage.memoryNetwork(
               fadeInDuration: Duration(milliseconds: 300),
               placeholder: kTransparentImage,
-              image:
-                  '${widget.malManga.image_url ?? AppSettings().defaultImageUrl}',
+              image: '$imageUrl',
               fit: BoxFit.cover,
             ),
           ),
