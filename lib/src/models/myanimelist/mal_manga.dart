@@ -12,7 +12,7 @@ class MALManga {
   final String status;
   final String image_url;
   final String type;
-  final String sypnosis;
+  final String synopsis;
 
   final int volumes;
   final int chapters;
@@ -34,7 +34,7 @@ class MALManga {
       this.status,
       this.image_url,
       this.type,
-      this.sypnosis,
+      this.synopsis,
       this.volumes,
       this.chapters,
       this.rank,

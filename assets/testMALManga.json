@@ -1,0 +1,90 @@
+{
+    "request_hash": "request:manga:0f8d1b251977fc2b6738a7dd717013e39f79d450",
+    "request_cached": true,
+    "request_cache_expiry": 86400,
+    "mal_id": 112589,
+    "url": "https://myanimelist.net/manga/112589/Tonikaku_Kawaii",
+    "title": "Tonikaku Kawaii",
+    "title_english": "Fly Me to the Moon",
+    "title_synonyms": [
+        "Generally Cute"
+    ],
+    "title_japanese": "トニカクカワイイ",
+    "status": "Publishing",
+    "image_url": "https://cdn.myanimelist.net/images/manga/3/209955.jpg",
+    "type": "Manga",
+    "volumes": null,
+    "chapters": null,
+    "publishing": true,
+    "published": {
+        "from": "2018-02-14T00:00:00+00:00",
+        "to": null,
+        "prop": {
+            "from": {
+                "day": 14,
+                "month": 2,
+                "year": 2018
+            },
+            "to": {
+                "day": null,
+                "month": null,
+                "year": null
+            }
+        },
+        "string": "Feb  14, 2018 to ?"
+    },
+    "rank": 293,
+    "score": 8.27,
+    "scored_by": 17639,
+    "popularity": 205,
+    "members": 48648,
+    "favorites": 2593,
+    "synopsis": "Having grown up ridiculed for his bizarre name, Nasa Yuzaki strives to be remembered for something more. Fortunately, it seems he's on the right path, ranking first in the nation's mock exams and set to enter his high school of choice. However, everything changes in a single night when he notices a girl across the street on his way home. Enraptured by her overwhelming cuteness, it's love at first sight for Nasa. But in his infatuated daze, he fails to notice the approaching danger speeding down the road and finds himself at death's door. Barely alive thanks to the girl's intervention, Nasa musters the courage to confess his love to her, fearing she might otherwise vanish from his life. She accepts his proposal on one condition: marriage, to which Nasa gladly accepts before passing out from his injuries. Upon waking, however, the girl is nowhere to be found. After recovering from his injuries, Nasa tosses his previous ambitions aside and dedicates his life to finding the girl that captured his heart, yet several years pass to no avail. But one night, when an unexpected visitor comes knocking on his door, Nasa finds himself facing a woman that would forever change his world: his wife. [Written by MAL Rewrite]",
+    "background": "Tonikaku Kawaii has been published in English as Fly Me to the Moon by Viz Media since September 8, 2020.",
+    "related": {
+        "Adaptation": [
+            {
+                "mal_id": 41389,
+                "type": "anime",
+                "name": "Tonikaku Kawaii",
+                "url": "https://myanimelist.net/anime/41389/Tonikaku_Kawaii"
+            }
+        ]
+    },
+    "genres": [
+        {
+            "mal_id": 4,
+            "type": "manga",
+            "name": "Comedy",
+            "url": "https://myanimelist.net/manga/genre/4/Comedy"
+        },
+        {
+            "mal_id": 22,
+            "type": "manga",
+            "name": "Romance",
+            "url": "https://myanimelist.net/manga/genre/22/Romance"
+        },
+        {
+            "mal_id": 27,
+            "type": "manga",
+            "name": "Shounen",
+            "url": "https://myanimelist.net/manga/genre/27/Shounen"
+        }
+    ],
+    "authors": [
+        {
+            "mal_id": 5074,
+            "type": "people",
+            "name": "Hata, Kenjirou",
+            "url": "https://myanimelist.net/people/5074/Kenjirou_Hata"
+        }
+    ],
+    "serializations": [
+        {
+            "mal_id": 229,
+            "type": "manga",
+            "name": "Shounen Sunday",
+            "url": "https://myanimelist.net/manga/magazine/229/Shounen_Sunday"
+        }
+    ]
+}

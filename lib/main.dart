@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:senpai_glasses/src/common/manager/page_manager.dart';
+import 'package:senpai_glasses/src/common/manager/NavigationService.dart';
 import 'package:senpai_glasses/src/service/service.dart';
-import 'package:senpai_glasses/src/util/app.dart';
+import 'package:senpai_glasses/src/util/app_settings.dart';
 import 'package:senpai_glasses/src/util/theme.dart';
 import 'package:senpai_glasses/src/views/home.dart';
 import 'package:senpai_glasses/src/views/main_view.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  App app = App();
+  AppSettings app = AppSettings();
 
   app.theme = MainTheme();
   Service.setup();
 
   runApp(
     ChangeNotifierProvider(
-      create: (context) => PageManager(),
+      create: (context) => AppSettings(),
       child: MyApp(),
     ),
   );
@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      navigatorKey: NavigationService().navigatorKey,
       theme: ThemeData(
         // This is the theme of your application.
         //

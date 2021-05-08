@@ -1,0 +1,817 @@
+{
+    "results": [
+        {
+            "result": "ok",
+            "data": {
+                "id": "cfe3ab04-637e-4f86-816c-76bed2116a52",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "1",
+                    "title": "Moonlight is a message of love.",
+                    "translatedLanguage": "en",
+                    "hash": "efc8c534800bebfc1867e9d729ed379d",
+                    "data": [
+                        "1-26b9989a7ad73bb61c935c508bbc975885aba65b2e6dd30d351d63b50d2ec3d9.png",
+                        "2-5606c7be7c611345897f779293dd217bea6f3357419d25532a0a9c5e382d4a16.png",
+                        "3-68466f63c648811dc18c95f62825efa8c42006401599bc7f63f1e4d16289b45f.png",
+                        "4-e4983ae3ebb981d9348f9c87f596ef68883304994aa524da179a68086b7b2402.png",
+                        "5-f4c67541c6b8e8afca223ac9298efaa47e2388de94d7a287a39e602d0d76b002.png",
+                        "6-8c6d737fb5d8563ce6b387f7fa67b78a41396355c9e923273f61f0bca28283d4.png",
+                        "7-d33ce384aa523e4616992e191efe793a147410db355b796218e28eacfc78ebe2.png",
+                        "8-911d553448409d530c86abe3aeb23a64cbb1482ee67f55c809c1fc90cf2082d7.png",
+                        "9-cbe423c2d4986096008c808addc58b2feca71c5b6d5114d74eec3e21f1688e81.png",
+                        "10-783b4ee4e74a540ed7a7b9e6f21b1e170bc1c7c69f419896e3206d398400facb.png",
+                        "11-9f74c84c004cd8c9282865d7bf00ee283e127d212b80b8a3cf044ca0dddc63ec.png",
+                        "12-c40013846681b1eb52ed796f7fda02a6fb51e45be968bbc2b31ef9431a767f89.png",
+                        "13-2a47605ab4d56ac2bd5ea8c2d94f791156df88bcd6e2aa24fe6b4f4b375c6a02.png",
+                        "14-0cfa8b771f150c6346e079c6d72a429f44d78264ecc2b6b7049b14f2fafb76b9.png",
+                        "15-017de80bc9fe61874be2203bb8d815d6b907cce494fe698c6bdc3f478f8a80c6.png",
+                        "16-cd37190af694d55df38cc0bd5881707b34220f781b685ae4984807afb5dbc7b9.png",
+                        "17-e9ea98a1f655bd1662b16b64708e364ee2bdc357151ab5ecb1143ec3895d2c9d.png",
+                        "18-21c5ba424e5dfbd5cdd3ba63f2fb362dd6f3beba4686dbc5159d1cef5bd4f88b.png",
+                        "19-021f0d879c1085144cac9a1edebddaacabe7c92248620d26afdce98406ee6d6f.png",
+                        "20-86125630760ca00bac25cd07dc4a58ee0e133a806fb1aa6fd4e4002170b2c06c.png",
+                        "21-86fa1afc43f359d9757f3e629420e67428d33d4e76c4970fc6dfd1e33fd16238.png",
+                        "22-ad8cf79d1514c232f8b7ad68b4d8121d648aeb331ade8fbb99ea7b636b9e78ab.png",
+                        "23-849991148759054a53c740c7c6f0e8c043ee6397a6328b006351197ebdcd302d.png",
+                        "24-86f4aa55fdaf2ef9ffd49e374353fb5520895764a6289dff85099cc3b7b55209.png",
+                        "25-ef06d7e2391e7c3d2a0c43cc581d77612d0f6942b8328bc7038d452cfc169bb8.png",
+                        "26-b1391a72caa40dacb9c4dc3a8c078cc0e6441b6e20da1bb0c25845ae0b770be3.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-08851d38df6e2e6172b9ff392ed37bf3a0e2f1abc36eb73c319decf05c35648a.jpg",
+                        "2-1f090559a9f0414850dab7802ee3c46c1afdc800e0a798ad1a42c50cf091560c.jpg",
+                        "3-b450b126e4e697fcd93a3423623f13e91ec849b4dc99ddb35fead5b59316435e.jpg",
+                        "4-0b71b573a1824f21df494032aaddc2358c8f554690aa4ae8e632b168c042fcc1.jpg",
+                        "5-e0fac65b5027b622d71681b9111e9973be922d92b9895dfa6429b8d1440f284b.jpg",
+                        "6-196903d36dfd3a86c03fd02fecad317bd4bb38fa916ed9520c79e95f8225bc74.jpg",
+                        "7-539a1c9535c0bc3cd94fc24a6a3b58eadae326de0b3670ff7fe988eecc9134fb.jpg",
+                        "8-204cfb11e454aa6dcd61f9dadd2492186167042a9ba5804d23eebae510ed11d6.jpg",
+                        "9-3573ab66d8aa7f6ec5a595dcc9e0af4b1a265644a7ee1c9faa740c7fe49c358d.jpg",
+                        "10-72ca816ba7b9cede52aae3cdaf9434b03e70f4abc7cb323d6ae9df1ca140d0cb.jpg",
+                        "11-eec0069fce6f5a40b76c665869e3ebd75d12d112dc9c81aaa2f312b9287aa626.jpg",
+                        "12-888ca9c83e947a1f65411143bc9d86bfc2b9d31952f8c685b24009dd7d46ddea.jpg",
+                        "13-ba4bc7453ebcde46c27f58ea87e3c93c18cd135d0701f44cf4520c1324c863b4.jpg",
+                        "14-aabd1524e50fd26a4d8876145f38c7660750732e9e7f142650368453444a0851.jpg",
+                        "15-11b96d370e0a46f75000e294cfa82c5fa05054725fdf2bdd0ec45e46323c0249.jpg",
+                        "16-6c295b9875c04b63b294b4123b179cd9d7b282801c1f23cb2fd2cb8fefcb7b08.jpg",
+                        "17-778a4a6ac5fd03e73f1033520e75fa0a6c30b9ea050dc33ddf02054cb2fe856f.jpg",
+                        "18-f9f99148376b435a28f28b67816419eedf1d1d21cb76490498899717effc096a.jpg",
+                        "19-d0d188a3e5799db2e56cacb35c12767350422f3c7921c72100cbc3bf16c49e4d.jpg",
+                        "20-15639f1d1beff299f621fe567909b40ee8291beef59e1589add20c879d517276.jpg",
+                        "21-4f3b8c5823d2968272d81a11627c0cb7de44c6312f83e0a6b77dc77d4e80645a.jpg",
+                        "22-42e2a38cb5fe78e1c7cab75c1e610a8a26efe6e096eec0052dc6e772e8338096.jpg",
+                        "23-598d54e493069d27f8a38d3b3c7cf04d29d1507dc5cbee452b4b646d033b0c07.jpg",
+                        "24-b285a5f9122e4d997e81a6a6b5d9f9eca439c700209d723fd88cee154dcdad7a.jpg",
+                        "25-d28027c9f65185a71ec04396292f36de72532caa0810fcee977a8c3bce2113fa.jpg",
+                        "26-4e1ed0e45172f42a446a745a9fa0533202d2fd09f0a26d984e2bca3794925b7c.jpg"
+                    ],
+                    "publishAt": "2018-02-16T00:15:46+00:00",
+                    "createdAt": "2018-02-16T00:15:46+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "f19ee895-ecd8-4061-a655-3d8f5c3aa7df",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "c786b4c6-e2c5-42a6-aa59-26093e12d891",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "ff9f2181-1ee0-4b0a-ab12-1b0041da09dd",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "2",
+                    "title": "...and just like that, happily ever after",
+                    "translatedLanguage": "en",
+                    "hash": "c3b1909a813f3ca7e04a188ebe1d5343",
+                    "data": [
+                        "x1-933e4adee12b8ca2c6cda0fb350544426bff3c583982a8c21bf3c3344b8b7e0f.png",
+                        "x2-d894d379515c4cf2059783c0700ce6f3d00acf2ba103b53048681bb6074eb0db.png",
+                        "x3-263b3e983369639fb9a44fcebb3271d089e61466f642f7bf7dbe346bbbd455d5.png",
+                        "x4-d8b408a2518c8c27a2b3e6cb15ef6e7f4769e56312c0f26c8bd87c0bac6c0cde.png",
+                        "x5-e13f7213337efd7fcc01161f3c1a5af7794ba0299baaafad49a1e9ce49e3a8f5.png",
+                        "x6-b2e72b45fb21403d4acea0485e10d662ae36f453fc57c1c5a89fa6cd38075a41.png",
+                        "x7-0d0d125703cb7b9370b8f4ac2f0b00ca131eae6b4c2d7bd2db6c9646050c4e0e.png",
+                        "x8-85dabbd51d9af7dbd5cd793482213316e586645afe37a14f792c172f00a0cda7.png",
+                        "x9-4b63871f688dacb98514c9f340d5dd447e28b6cb543b343ce0fc48e8fa6f812c.png",
+                        "x10-0cc2548b0431f1004004107d9d781a86621ec244faee4f02d22564dfebea3ea3.png",
+                        "x11-76f031ca5e9b61e1b1a44ecc2469235d45e1f0ce03a7df02e7e5afd222497ae1.png",
+                        "x12-432f53f6c1d64748cffae32d26847277600eb78a2a09e055e70db83f597392b4.png",
+                        "x13-0e499e6dccc8d6610e1c22584b1009286985cd96be8b38171cf325136b431cb8.png",
+                        "x14-b8f842787ff87845ba3611ff3fbb7b4b4b6280bf4101ec0f02cef931b2ede04b.png",
+                        "x15-25227ca5076093ceaec7c36e9efc9303b6de69c06a3ed6ec13d1fe700f59e656.png",
+                        "x16-6db48fb527eff4147e33a08fc516a0694b1e3a930ea601eaaa664d02a103edaf.png",
+                        "x17-1a8bab65e6edba7b4dc3f0c557f42ab63f406a434751eb6176c5c69ad43995c6.png",
+                        "x18-738c2b8bada9add9d862277dc2c884ac4064962d4763600f281b7f7089c66290.png",
+                        "x19-fc8134fd095b83e9ea0999ba41c833d64a36d117a81877424909fe02ef406935.png",
+                        "x20-23fa6f4e16d7454a2cbf0f7934d2087ec006aebad2aadec30cf7414caad55299.png",
+                        "x21-d5a72b9e48cd0eda77fddd5c0b9f7806f4f5b1d69f9bf5448a010344f41c3baf.png",
+                        "x22-0348bdd8d9219089cb089bbc096e7716e1c790928d38ef13105cd832349694db.png",
+                        "x23-3a1d612d27f23040ef00fcd5745c4ce34b69f965759ccaf4df3fab4d328ccc0a.png",
+                        "x24-52d081e926b14f211db6af457740613a4c19e17ca2a2c48b4c5a8810ee1ca4ef.png",
+                        "x25-59b6979291b906444dd2a2a802448859068f8575604b3d5cdaa472bef49f0b11.png",
+                        "x26-25da722bf2123dcf83da1140637c3fabbbe2585b93c422e8958ab9ddb1a57455.png",
+                        "x27-c13b0fcf307d7b51f2aef07e882b3581286c3cdfa0e46d22342d03a24a77962a.png",
+                        "x28-e55c1804bf07916f96191285f3ebe50bfec8b772bde9a38805bba58b8462e0b5.png",
+                        "x29-480a23e77cc4cd19d52bc60e4070588531106506923f205dab5585579afb51db.png",
+                        "x30-0cfb317cefd0236a1973703884819ec34b762ba2d25004afbd9833134414a758.png",
+                        "x31-8d7bd073de46bc90d4ed93b6077e85e762267125a4e3904a414f96d6d160e029.png",
+                        "x32-cc113a25a5096a9f654a54d2ca9e79b303f7c260844b826eec84de0809d3e041.png",
+                        "x33-0522acaea18acbeaf87ab41e04817b93b7a65bbe7c671eae377bdd7092ce8ff7.png",
+                        "x34-2cbb7447e2d3ff18b409dd458501ea3f2c3896408fe13aed4b5a7380f6877623.png"
+                    ],
+                    "dataSaver": [
+                        "x1-b1220140072b5b8b11849c78bd9513fdf3be1a48ef2e485f9c0be014f91a265c.jpg",
+                        "x2-89d220e4ce572d44ac98ed7a121c71e51210109c57956484dacf327d71e87ed5.jpg",
+                        "x3-57a611293f1d46962536261d9a1649debf0b8bd961deaff3986399c4f7733f3a.jpg",
+                        "x4-928b580d6ed79add29ec42fb5f80bd642eabd2184423fc7680e837e899ce1723.jpg",
+                        "x5-c58b2f1803b76013f208452d98ad68aedcb444fd6c6718285b5fcb233c2dd56d.jpg",
+                        "x6-36e7c856ba82390b389f834d65dac31dd7443be5fb521939b83de464baa3382e.jpg",
+                        "x7-4e1eade1e5a7f9e106563b7b2805b5627688c79e7fc7b14a22d74ea2791948c3.jpg",
+                        "x8-829c43c5a1f2044125435f44e23e908682b4591a568437fbaa39851b4954ac91.jpg",
+                        "x9-b6bf8406051b4c0daeff8629cfc4bda9d733fb912879a6c118c745e21b7558de.jpg",
+                        "x10-19c3b2ade4f2c1d98c889165953019ac3e430f63188a2641c053c40a93384b9d.jpg",
+                        "x11-38986d7bd1055e27dba575f918246de650ea3456347129a15fe9c3fae1242962.jpg",
+                        "x12-9d1558ac5d928942b0336a01ad30da5191a18925a05a431b658f650af35ca556.jpg",
+                        "x13-d9a4aadc2ff75687bda749732f52fc197376efb71d23f43d3ad817a1f788e24a.jpg",
+                        "x14-85b918216998ade384f72fda4280acfdb853e3f728807bf43a7bd3ae62ad04e5.jpg",
+                        "x15-16361477578a0f8d839d9568f8c46e9b413962860053561885b8cbf012431ea6.jpg",
+                        "x16-80f994637a8c5bbcf49e6e66ca7320c9f45a864734692353167fb761834c7686.jpg",
+                        "x17-e93765ce5dcf7aca009f68e69441636ce113bb22023f25982e01ff41a2d3af16.jpg",
+                        "x18-cd8bc82f8c6db253928ff0c9aacd212aee0375b6f6ef4e7e9ba3d60ba52f79a6.jpg",
+                        "x19-8b07262f3ddf66c7a2e9392b2db34c63500d9c0a8e5447a9ac93c2d1003c6910.jpg",
+                        "x20-f152ad6f9716e18e9ca81474aa62a6f7fe07baa27bca3eb24f539c8bf2626e76.jpg",
+                        "x21-493d87a92244e40006105590449f26fe0d2aea9f7c7ba167524bd1a302f71965.jpg",
+                        "x22-be6731be20f8aad105b66df6d40e917818062208cecf19fd68024b9df9afeff9.jpg",
+                        "x23-90d20afec59158fc7c75144d01e09ec59d98fcec96970be8045eb33f09ce2ab5.jpg",
+                        "x24-00ed79c89c25862f5b960ae74c2eb604d5afc1226a16c6385f512fade8172387.jpg",
+                        "x25-b56db7e004eec3a89c8717701f6b5a06c913c18452192971d5479338270e0b2a.jpg",
+                        "x26-9729ee09a43b313e8e02912c4050216eba67c17dd3d11aa3724288bf418b228a.jpg",
+                        "x27-550e0a7c02a03cc4353d81b3ca5dfb98dfe98cf06060f0e37b62ad1d7cfc80a5.jpg",
+                        "x28-bb5607f533b149d0688d38e1bf5ec139046708c51bf8f7fa2039867b545dcb9c.jpg",
+                        "x29-7e901e45815ef544c504eeb9af0aad6e01625a731795c622465d6ec704d3a7c4.jpg",
+                        "x30-82603e51f5b25dcb04ea8e4a99c71b8334e0465ee4c3c0b884aef2a4cbdc787b.jpg",
+                        "x31-2efa1edf71ad2fd45f4474616ed3e369a25d8fe552381e8568e54606868cbb08.jpg",
+                        "x32-82f507a84aa1973a77c3202c2d3b0bcc4c9cab024d6b161230ef4c635a8c0670.jpg",
+                        "x33-2d92d2a1609a26d0f3361226a6ed5f7c03abcb1354e0d3c67a6e2948fe3c2542.jpg",
+                        "x34-a58a4aaa835e625ca507ce704cbfaa5dfeda92a3c58506c424c9957b87df3393.jpg"
+                    ],
+                    "publishAt": "2018-02-17T15:59:19+00:00",
+                    "createdAt": "2018-02-17T15:59:19+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "f19ee895-ecd8-4061-a655-3d8f5c3aa7df",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "2972c1b7-c1f5-44f0-88d0-a129ebe028ac",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "1e59ee4a-71e3-4867-9f7e-6d23641db1db",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "2.5",
+                    "title": "Intruding one shot (Kumeta Kouji)",
+                    "translatedLanguage": "en",
+                    "hash": "57aa0af27534d42ccc46f3bb02f27eca",
+                    "data": [
+                        "x1-7675de098b54400041a080ad3e2eaed4e6e3c1020d2c19e0f61c17e084ac1fc9.png",
+                        "x2-9648dfa1692714b27374a024fd7ef6c63c6f0b533a68ad66f96cb0f8056b5792.png",
+                        "x3-9d1c6725e86ce5b6076226b25937ec667535dc403c68994f97df0bc018c8fbb9.png",
+                        "x4-ed288ba9f9f3bbfa0c83c1485d1277bf68b271be14d89fe94696cf00b1b02c2b.png",
+                        "x5-dd8e4adafe0db21367aab085ccce25c2fdfde81fc6040e1cff7bd78c49239c00.png",
+                        "x6-513684c1145bf9fa699cd9cd3e499d19b89891d0a55d2a96484891858fac9f9b.png",
+                        "x7-71e886f189d379bcbb44803e164f42f80ac7f7e508a9b05025a76980cc209ef7.png",
+                        "x8-675b6e51b4d8e8055579554c0f96e98c03d961b85e99f9199c0829d6fe87e368.png",
+                        "x9-212060da01f80e488f7aaf7932b11e90f6e9e9c13744914158a7ce5ef3b5002c.png",
+                        "x10-e0569d91e3d38552ffe95e28ce62f3e49d9856497835256c5b42a6a87efb9193.png",
+                        "x11-e7a9baa4895b96e4f3865e2029bc4275bf4d964d0a69ef872cba93eb9cdb28a8.png",
+                        "x12-41d871e88e3ab270f5fb649a9b10daeb70505a808d6b6e70481ed6358f28fefe.png",
+                        "x13-5926248c456f912e8f1c4ea03d0ef49b79c72d052bb14bf528a490ea35bda817.png",
+                        "x14-0aa9c78cd01442bc27c040088af8f9fb601793b3d6b2686c45a5648ed7fe119d.png"
+                    ],
+                    "dataSaver": [
+                        "x1-a94bdd5214a24fa99255ecd4cd89c58c14ae6578e4d33feef9768d00d5fbb750.jpg",
+                        "x2-1d53bdde637131bb0c010b654cfb9462b32e2613f7cc8d0259bcec89353184be.jpg",
+                        "x3-893f8a5bad2277c8dde13be77f2f8cfac38ea13771ce625b7f44f77023a85372.jpg",
+                        "x4-68bc22357f42a5ada8658da6f787a3bbd9cd42ca9fbf41d8b62819cbb606a213.jpg",
+                        "x5-c1cddcb1811491b29487c30a590cb3c3850990e67369eee2693c4d5b26e30b5a.jpg",
+                        "x6-de288ef01eefabeaaf28af45e5527b7bc7bcfc5e20f1d2513e53566a544884b9.jpg",
+                        "x7-bd72f622aadfba30c89a1c1500b91fe5d2a057eae09b2ea0905e5b017ee370a0.jpg",
+                        "x8-29b63c00aa7f47ce602497d80ac0ea2a36d4eb9639c68415266e0e737093981e.jpg",
+                        "x9-63949ee05666c1215e68f012e3479f5d17cc7fa8ad9301191c9ed5aa8a2237dd.jpg",
+                        "x10-e67efc90a5b6f9471a58f2055c2723106d826e70dc4e8b604cf5d1f849cda5d4.jpg",
+                        "x11-9394cf182b679eae1af41afd1c0fde49c8c8a0fdf7c244a1b2fc63e2d4f1d589.jpg",
+                        "x12-abf92fe0f600acdb45b434f89767d066590d432c9c26817388bf0b1c44abc111.jpg",
+                        "x13-46c76c560df016dc6a6164f4294d81ac1a1c4713f6919120bfa3a11216d30a64.jpg",
+                        "x14-ad14869db02749d04b2c6913f38673cb346e1d6dc7bd1e8f68efcb0d9eaf7aaa.jpg"
+                    ],
+                    "publishAt": "2018-02-17T16:04:42+00:00",
+                    "createdAt": "2018-02-17T16:04:42+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "f19ee895-ecd8-4061-a655-3d8f5c3aa7df",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "63849d8f-2eb3-457f-bb90-0e1f7d43588b",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "d57e2cd7-b302-46aa-96cb-902600efdc23",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "2",
+                    "title": "... And just like that, happily ever after.",
+                    "translatedLanguage": "en",
+                    "hash": "0bd1602df8709a1fef3f7ea4e1e527bd",
+                    "data": [
+                        "1-6f115a90d4ce2b607edfbc8de1a2251e8bc9925a7c85be2b7f9db3997a3614bb.png",
+                        "2-a54edb16f36f5124d684196594bc431a96342285cb5d1254b20fa34cd124cd76.png",
+                        "3-54320daed18d9882a8c0a794236e3378b2149ca55039636942a9cf80a4c388de.png",
+                        "4-73f380009afce8a81b9f4ebebadbb6429ced4b6668d6c931af95b1a7cd685dde.png",
+                        "5-64e9cad0e44e7581bdbc17f49b98304e7e1586392f99ab49374aa66c6532a1a5.png",
+                        "6-6634603bcbc462ac9bdc2c792e702f0b9fd570a2080f45180fcfab462286351a.png",
+                        "7-c1b6502b9043dd41375911df794942723c74ed0095dc23801791fa3f3f2d243c.png",
+                        "8-c327155c01c5f576d5fdf432cd97aa2a8d0112dc425f1d6ea8219ad04b5cfcb3.png",
+                        "9-99db0ef38f7da9b7be09eb6f9a8a3645a9154c83cfc269de0dcc787dfe089736.png",
+                        "10-6c7c4715a03f1e1bdd97a85abe1ff8fed99f8554b8618756fa20b57a43c9cdba.png",
+                        "11-d936e5b2e01610f6649c65e3afc7f3658c0b7b249ff490e0ea456b0ecf89e92e.png",
+                        "12-a3746654d709182c88b94217b71df1314e6428844bde0a0c79096375291d735a.png",
+                        "13-548eb0301fab4dd9d94990e8659e1864faea0a824a2422217a5c3362c86c0914.png",
+                        "14-7b85353aa7df50fa0bbb445b63686316096cae173b0291309fe98533cb31d597.png",
+                        "15-719f2fb3f57fb018fc4c2260cb981ef47ac9cf4295c68a9c68004b0197b82b4e.png",
+                        "16-9248b03d07c8c002cab8490044ab53e78713716d82f1117e78acae2cd35dd242.png",
+                        "17-d625e2c1fec764df8bed7a8b0a9def610f35096b8d9808ea56967eada1e2c9bf.png",
+                        "18-1e850b3963d1588a5ec003c38df4dc42d859b24cbfacb18fdb792183c22a19bb.png",
+                        "19-edfe174bf833c345b53919d1302a5c6ade070aa303743c1d7a526cca6360b6ed.png",
+                        "20-13b4f97deacb7f33e922afd34c4db264e329b4b8d8a6774043a3f105e3a873cc.png",
+                        "21-4660ea519e5dd632a950eba00032bd8e95323426dde18f28a99175a9788d7ce8.png",
+                        "22-43e9f9180d0f51e7397f51e57ff4cd5ab1a6eeadc8a179154c888e4d45bd6b6d.png",
+                        "23-0284de16fe28c50e01f9243da58e3502f2a2994d6daccfa9e8b2b9e6010fd862.png",
+                        "24-93352dabcd0ee3c2ccb770105a9f146a13ca34e5f1f94d9a089d3e699cbd023c.png",
+                        "25-c4ec0ed69a48accfd0ba14f655e5e22ff649eb1ecad51a950293898bbcfda164.png",
+                        "26-c4ca10b230184628fdba0d869f09b9ff8cfcc545775883bd5f7b28c52b0adf75.png",
+                        "27-3c7afc951d9a9cb567d0234be04df9d035706e4ff27bd45868e891ff668cc7dd.png",
+                        "28-87771e8dd265f9c691ed8801c023a2ed01e76a2dc696f168335db63d5312921e.png",
+                        "29-28273169a44c3fa25819aea99f13abed8558413dcbc3ef47053bbd632d36b2a1.png",
+                        "30-f3695b4262fef0c5a924f2a9dc58e74165c38a1044814eac7249cefe3c5f5979.png",
+                        "31-3fc2780bf410e9c243651ff32c7fb9d677452a59a796d81d59d6e2fa30f9d573.png",
+                        "32-068dddecbead363776a8578d157c26e6739d216eacb53d4e3c903be4beda61a6.png",
+                        "33-f2e352f1edb96c9809a13c2ec414e6fc5c0113db0f6f1aa9d234ebb0149eac5c.png",
+                        "34-a763db354b1a9a70e04af7fc762c746fca0f35ab76986239acae71c3677ae9b4.png",
+                        "35-b1391a72caa40dacb9c4dc3a8c078cc0e6441b6e20da1bb0c25845ae0b770be3.jpg"
+                    ],
+                    "dataSaver": [
+                        "1-d4ae029810c98fa534edf422b261df03091763ac171d0767198bb873d52d975c.jpg",
+                        "2-569ed9ca856cd34ddd1ab0f12b8cb5c9064804c0b15ecbbdc7b8bb4e44a9d0e7.jpg",
+                        "3-a8375cb51c4f07c993e32fde1cdc2959e38e858c8600af61d1b01d84472bb64f.jpg",
+                        "4-9cad85fdf193b41a8b2cd3aec7e40f1a4cb27d5b650913800014f9554a39385d.jpg",
+                        "5-d42db3e4e1082d155f7bbfa421203dc1b6ee6baf6467042a7e01c6b884b7907b.jpg",
+                        "6-2ba21fec0aee76625502fb017c9efd33c9ef360d1d3ceb0b951fcb2ae646dfc3.jpg",
+                        "7-417912914d3abfade559474e501cc9e52f99c121db1000b26789b535a63c07ee.jpg",
+                        "8-4430cdf6c4c33ce290e31b9229517ba7d43eb13814d5727b2f36e32622553bfe.jpg",
+                        "9-17493a2cf445f23d6de29729ee1214a101751c3dae65cc655f2a146c4df06c38.jpg",
+                        "10-d7ac35c08efbf8fb2d46ac4a1c30d27faf9a7076debe9273fa103ff981720b32.jpg",
+                        "11-3ece89801b6f459101f6bfdfb37fd1c81402c55889be72e1bf573c561f7ea24a.jpg",
+                        "12-44636ca6b8105dcbdb72253f24d72fd5b1a116928fd3d0751e794d220eead443.jpg",
+                        "13-4e3dacd0d48d555935e909847495a3cd4c2602f85c7fa12dd4c9cecba6d904b6.jpg",
+                        "14-99b49fbe503e849b09456a6f115f3fbdc273fc67ad8f2b884edf5b33d5fe2bff.jpg",
+                        "15-2e4cc5b3723bcef9eaa8382ac900316a237fbdb9e51669e6b650cebc3abf41ff.jpg",
+                        "16-087ea24d62f5d7e0e30cc4181c858815bacb1f9b2cf242cc3c48f632a78bd926.jpg",
+                        "17-60fbb9a1f129088429847c81fc0c03eac15368031a871a387263e2a7b474d536.jpg",
+                        "18-a9d744a372e1acc40562b04f157355a1008f454333ca79a4e69fb28b986702b4.jpg",
+                        "19-2986fed050678aaebbab0c16b0767180c43a7b3505b3a9ca04dfaa3719b035b3.jpg",
+                        "20-124e73ca5832893c7571c470f884f53fb7a68e536ae58151df2a27e618e282b7.jpg",
+                        "21-2ff46cea6dbd3a3188ebadc9d4ec46cd1efb15500822846a20e43e98b3ca2090.jpg",
+                        "22-b7cc44219453e97dccdc7802d5c8d88b929eb694564ec888da39be5e97846d7a.jpg",
+                        "23-0eb87277ec76ce341cb02a78c80bb95b417faea0a51dd3c04772d39e0db5f3fb.jpg",
+                        "24-625025824f643268ecc7e2a6a351803610ed9892ec85cfb0a965bca8ce278042.jpg",
+                        "25-fd41a6376af3b020c23ffff46fd21110b135cdb772939fa4b9bd13f72743b0db.jpg",
+                        "26-e159ccf3beec7c7485acb1ca88472a44f1a2ccbbd93a065b5bc4bbca08683e42.jpg",
+                        "27-998907a0677dec1acf727d1c5abb560461f9084558c9398e73016a3a205d1e10.jpg",
+                        "28-46fa07586158695fcceae0e8cb6d725937765e172b8ba7dfaa41e0d066a609cf.jpg",
+                        "29-0780803ffc85bee58615b277b8a1b563aa34b112bc13696c8b1ad56bf0935f34.jpg",
+                        "30-2229a52e12f38b9f69a4b228100d6fb68c4c807ddd4981bc8714ba9d0137f1ff.jpg",
+                        "31-12926f9e9b315464c4c0d836b763f8ef5c406291cd40cde0616400911f10f070.jpg",
+                        "32-3219e6ee5f4af50d7587b16f2a94ff933d523d44059e77e88599d0cbe65ac8f4.jpg",
+                        "33-a0396e5f660b1e25027a32a9edd391e449234be641b480a54903a220f5129965.jpg",
+                        "34-cc62d54f3d48c91fbeea0588d9057660971805e8b3195eb2bfea33b792dacfe1.jpg",
+                        "35-4e1ed0e45172f42a446a745a9fa0533202d2fd09f0a26d984e2bca3794925b7c.jpg"
+                    ],
+                    "publishAt": "2018-02-17T22:51:12+00:00",
+                    "createdAt": "2018-02-17T22:51:12+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "f19ee895-ecd8-4061-a655-3d8f5c3aa7df",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "c786b4c6-e2c5-42a6-aa59-26093e12d891",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "213eafa2-33a4-45ee-833f-e37a17ce6c73",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "3",
+                    "title": "This is simpler than making a contract with Kyuubey, but more serious than becoming a magical girl.",
+                    "translatedLanguage": "en",
+                    "hash": "de40fb82c97c0417e6adbedc16d32e01",
+                    "data": [
+                        "x1-ceba5e1fd140eb2304de5a653523a1046bcd9abe97485055d8cf65354a73673f.png",
+                        "x2-a3e2fcfd87144b1b0d0eada4b99830774b8b30d2aebf261fa04da24eb9aca76d.png",
+                        "x3-7883498a6d3455f4bf3f0e5d318eea934e8a05f55a840f2bfee0429ffa0e2f69.png",
+                        "x4-6877982c98f034b0add25d30fda714462ac75aaac2e19a4e28bc0d67b6420d16.png",
+                        "x5-91750f6e5b14ebcf56f26066682d023ca52b74df8ccee726e0ae2041e2f2613b.png",
+                        "x6-3e01018a83c490b2008342ede20aa649aa23d589b9c66f8d963387a6f94ee73b.png",
+                        "x7-fc7786a1c54159449f4e228fc0d183257ed8708f1646b7819d4ebd0512246e9d.png",
+                        "x8-195bd8c3da6fd17127283a3fb3f8708fb48342c5c67d246d7be52db70e82756d.png",
+                        "x9-2fe4a7376a16589dcc39bae9567b0f847570a40f1620c010318496f5477afdbe.png",
+                        "x10-89816a5c18872e04013c0d367d92e8f46d30a860a262bfb4094073fe0b119bed.png",
+                        "x11-848fff728b7c954af6d96b5bc55e0e37b46a4ab0f6642fd8fef113034d931886.png",
+                        "x12-40f47a844c955744aa5863fd77b8eaf7c6db70d678433391e9ece51ab369458c.png",
+                        "x13-1acbbb8ecd283d7fd3f4abb08bf304e7cdde21929caea001893909a089479995.png",
+                        "x14-c98da5585669b2975283a7b44367abc96fd564c5680edb98af3f25da2290b974.png",
+                        "x15-e964cc78dc9117601292d2fbe33e4491782d0186c261f321e96f1d21c69f4e40.png",
+                        "x16-f139cf2a8361937a894483288a9f1580e8cac720b9bac3df901343d393cba24b.png",
+                        "x17-91fa96944ee34c7e6dfb1c48077c83a8097520ee6f8c54d392f3dc2316021d27.png",
+                        "x18-48161ca1212767cbadaf8b71d8a7f3bd1be23e0d702a75a6edc0e528b2246fa0.png",
+                        "x19-45b1279fb4f45f993b4c43bee5783d34afd2a4b9680fb492e298a7f531e6e96e.png",
+                        "x20-f5a8f5fcafe4b6ed72d29cb69afb7bed7db1deff2a2ef89ec90698cc53bed2ab.png"
+                    ],
+                    "dataSaver": [
+                        "x1-7ef7c10be355846f9f164e476e778890e80ba3bebc900a8aed06520f64158606.jpg",
+                        "x2-872772508eb92b2e7aad6c3e86b79e6d02c1a303cc17eff3b3109f6d8d5000d3.jpg",
+                        "x3-31f85cee52e73bf9d65f8f89fad6e88c19d31010b0352ff451dd14558b52b503.jpg",
+                        "x4-c85e69901b980b5a631841ceedb34e8b1256d83b0860cc04c12106b29c9cbe4f.jpg",
+                        "x5-acb45b9224b897750597fec5272f524ab169e12951273c1f9b09ce81b6a115b8.jpg",
+                        "x6-7d884f5182ffd720de340152ab47b15643ed2b3bc84b162649894f1e38463680.jpg",
+                        "x7-dd279590c2609bc2234cd65e9aa9c68f689cbf7cfc3f698f1e08c70c0a83f6fa.jpg",
+                        "x8-396fb9a0da041a6b2cd989744866a2fc663e73068b6de37c7c1bc54f9990f576.jpg",
+                        "x9-f536442389eb3afe3c40f0552b4c90172585f95dd067bbce0a0025db1dfe5f97.jpg",
+                        "x10-d4f8607ce9526a3dd41a279c7d15298185186fb71f40d80d92497953dd0c423f.jpg",
+                        "x11-47fa7b5e765d5dcfd5d6bfcf8a70f4cb72f0b7320955039397c6207d45a6cb0d.jpg",
+                        "x12-1a0e493875d3cdef075ebb3541f6a955f5e856a7a8b97117bce11eed4f60c22f.jpg",
+                        "x13-7d9c0e506e6515c660f1ee75d672ca39eec3af8f3e0d353e114377ac9cef421e.jpg",
+                        "x14-73fb35860c1105997ffc7edfd77b4869e194e9cd5433579755e8967aa43106c7.jpg",
+                        "x15-702d9e0518fb9d3a4b4f3600648e4ca5ab42c946d1dff8ec7203945a63184660.jpg",
+                        "x16-7d6477bb836cde1b4ee20749908813434544d5ee0e2a1da082a4fc0d956c305b.jpg",
+                        "x17-e017f36a58eae3726f3571d41fb63b7f5844ef821b9bf844e98a8a65797f6c1c.jpg",
+                        "x18-496c48c80912936965c6c91bf7eea3ad0a95933f58fcdd57fa17784815db7971.jpg",
+                        "x19-a6c04be8676454e0e3c5f94630b124d47832b8d3e447f57458eec40b91f3b280.jpg",
+                        "x20-907ab5d121b29724d4af3077887f9ca692d5313b66625793fc4314e472239db6.jpg"
+                    ],
+                    "publishAt": "2018-03-03T16:00:37+00:00",
+                    "createdAt": "2018-03-03T16:00:37+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "ae6e06c6-e66f-4610-930e-76f29d97bdcc",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "2972c1b7-c1f5-44f0-88d0-a129ebe028ac",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "8573ee86-6bf3-4bfa-ac6d-996d1eee7252",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "4",
+                    "title": "Only you can touch me, so?",
+                    "translatedLanguage": "en",
+                    "hash": "956dfbe29a7f966ff1aa351adf21e42d",
+                    "data": [
+                        "x1-0b53fd437bbd6ea0bb4d231b7eadd03a2dce3fd686b4f92ec175005b6c7070a2.png",
+                        "x2-9da57cba5f4b5f3be80444d644b1a4d46486889fece56ed802a378927edaaffa.png",
+                        "x3-3462132852a4fe325808b1c48a8f1b3f8b54996557f8e165eae0566c6bdde1ac.png",
+                        "x4-c4a134e49abe7cb41e9a97dbd0cbf6e814ac75b65295a8ca00398c37f2fb8a1d.png",
+                        "x5-47af0c512d317021f52e36f20ed421ff795c2bae9018bc82e1571df70d7fb069.png",
+                        "x6-675b16b9cb64fb482e0a467f9a996133ea93fca735d419da4610a3224dba0bb6.png",
+                        "x7-0a87a71b27b16a62f7bedb49d96341eeaa21bc224f2e07851ab5b9263cae7d44.png",
+                        "x8-0a257b4f71ed0ac844ccc28d2c178f90407361c9c2251ae829f631a2b15ca256.png",
+                        "x9-9468d5f3bc2b9918f69ab05f66827b359cbc980f406048d59dbdf5241834a10c.png",
+                        "x10-4745389209e90f620b1cf1f25b2a0a46a2d0a6f6eac36a7b674bcd067a689e04.png",
+                        "x11-760db4ff4bd5a4027d3f8536cf93d59366f43d4fd1ced784b55297e6c5a7ab7a.png",
+                        "x12-d901e530a859e2f08defd7206f40450eee5af7d45851a3d3d7b9f635593b3503.png",
+                        "x13-e77e49cc0c4820cb604bfe78bb7e07d735e7e074cffec82e63b2e041d96deacf.png",
+                        "x14-18940182aa63590577a49801835f2441c82dfb54843424c983113211d746c2d0.png",
+                        "x15-c25551cb1ab2cc1db767b0f9bd7351a4c479e2518950566fbce0edd2311ee030.png",
+                        "x16-d581bf9960757f4381227aa3950726c52c1bdc32c97f7a98108c44970fdc9d44.png"
+                    ],
+                    "dataSaver": [
+                        "x1-aa0f4862a9581ddf34ecb00e4199794474d71647f3c5a102908cdc624f571874.jpg",
+                        "x2-58a01af449e731c95b3bb49323176cc501db03e415fd94a9e1d5cc42485c00c0.jpg",
+                        "x3-6fe0950ef2fbef8d717ee4bbf98a34ffc697e07082880d520ed08d914182f606.jpg",
+                        "x4-7d892271c3b9ed2f7fa0e2a3450c89ef8a0a629899ba8c58c871ba73400cf782.jpg",
+                        "x5-363f69eb58c7bfa122f897a6f1d2bde8b76b630f9875b1d21cfa02735847698a.jpg",
+                        "x6-66a48021a21004394d789e371836442560b45b91e2a0bd254e344e9d18a87514.jpg",
+                        "x7-e459b5eed36dfdf9201fd0c01b52f3b2c378a4e80603da2d07f99925851fb8e8.jpg",
+                        "x8-10e916fb62af0d77fafcd99ffa07b1a43408c114a9bd9281ec2ee2d3fac478de.jpg",
+                        "x9-4563ecccde0b47b11178c2b3413a327cc55e512090c949b55ef7bfb31d377bb7.jpg",
+                        "x10-8eb483941e04ac3a35a04f3eddf5fe01a8e5c83b7fb439f024eb4b93653d7a63.jpg",
+                        "x11-17159f3e8f56b9438f3a49dce059bb2cb9d9bcdd21cf930848d45b4b3ea70cf7.jpg",
+                        "x12-d3108169dab66c699269044fdd06a6eff8f166d093be7f0800bd617ad21c736c.jpg",
+                        "x13-649da572f18537bd4263db60d9626fec859420702361b8a084004ffdd7efbe63.jpg",
+                        "x14-a97094427dfcbc5e6314480cdeb755e4e8cd876171826f7de6f088be590deeef.jpg",
+                        "x15-cba23fed80848d30ec7c950c24ae3facbcd9f076ab83c752ead3fc1d2157497b.jpg",
+                        "x16-92fa625abd72447a1d31e9b2e83ad27299464e12d33e68b77e907212255da151.jpg"
+                    ],
+                    "publishAt": "2018-03-03T16:05:36+00:00",
+                    "createdAt": "2018-03-03T16:05:36+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "ae6e06c6-e66f-4610-930e-76f29d97bdcc",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "2972c1b7-c1f5-44f0-88d0-a129ebe028ac",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "2fa9a88e-1b6f-4c59-9dd5-32d6356d49a0",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "5",
+                    "title": "Araragi-kun said this once before. I love every part of you",
+                    "translatedLanguage": "en",
+                    "hash": "bd6a768b774491f059a5e5c50ddd67ce",
+                    "data": [
+                        "x1-1b0332b8a1b01320890ee124d19cf74460b2ebe643cde96aa07d84918bd83cd9.png",
+                        "x2-f97aa303b71b2a70c52e491587c2c15015f1f4432f2a5bda001790d784b1f590.png",
+                        "x3-9f407dfcde74c52a7dff096195d074348a9d476c15ee3a02c42d969e104ce57d.png",
+                        "x4-2b5032a1b8f0a81418a0c8e678722e4adf57b0da5db372018da0c2a713b56350.png",
+                        "x5-d955f442a7afa9b10e666d2e59cd134cf845e79279b81bc97b3b25bff387b7de.png",
+                        "x6-0292cdeee08fbf1032d0c2358f9af7fd847cb878777faeafee9872a2e75f853c.png",
+                        "x7-8811c751ae5712d0d04891237361d87303abd29eee3dd983b17b847eb2b56b64.png",
+                        "x8-66eb88acb3acbc4445b16266efb48b3f5e6dbdbebefe952201b45b8060737281.png",
+                        "x9-a83f0a4c5d18a53e4c2cdc6be39842b3d9bf07535018008602d8631da2b95834.png",
+                        "x10-4c8af25fdca2111381f7991842feeba90be5e58ef7181e97aa3d47443cc95748.png",
+                        "x11-17d7b94ac831ed8c3d9ea8d88000565a2d77534fb0dceaba586ddbd881ab97b4.png",
+                        "x12-4803358228523b18bd6fdc6943c07bf88c46fd867eed954eef157d348842f816.png",
+                        "x13-f4fe243ec80b3a00a57e80bd8da5477120c3ae1f238012365bd068c3d472af94.png",
+                        "x14-9bd4f554335b9c372d95af173c2e6d85de1bd51f9066bcabeab286bbbf72c7b9.png",
+                        "x15-6840a73f8bd287570e6fa99dd4dfcff804f92973341440aa9ea5c3d0e550f7d7.png",
+                        "x16-b03706e374f92be5186e6b699833e47c568beb6bb7ef976917b6d157b3262edf.png",
+                        "x17-bfa7fd1cbaad3357a436cccb61b6570c3d9d962a6292ada296e942f353dac620.png",
+                        "x18-04828e6dd3b562191b566f071343a4791fef8b87393d51d6bd8710ab54bb359b.png",
+                        "x19-7c0b4f07ddec95baa13c0ab31f0934b270f8023673b28fc00f0c87c8de91656f.png",
+                        "x20-c01c86fde5f91c9d5ad2afbc5eaf862709c9babbe35b9ef2c699f116954f6130.png"
+                    ],
+                    "dataSaver": [
+                        "x1-1564041d663481884959d9bbde086fa702153436431a10ad7592e9ef6cf590b5.jpg",
+                        "x2-c9163845edeb68451b9f95d018ea82f67afb464f357bb2d10d77e264e552069b.jpg",
+                        "x3-b8c5512c1e2d554bb447ff0311e3f216ee247779e9f0496867a7572733b2474e.jpg",
+                        "x4-0d0b9ac916eaaf9e9258ea14180e390bb7c7e4d494e60ba2d9a1dc6ddbe93279.jpg",
+                        "x5-d451eaac411a06c3b13b803d47e75c4a82c936713c4174d05692aeedbcc21e56.jpg",
+                        "x6-63586c7a6b26ff74e8aeba41dd6623024c838d4238525e1091dfdf6f21134fea.jpg",
+                        "x7-637c097eef6231490af68c8f984ac4d49a5c381a238c0e6e84a1f6acdef8a8d0.jpg",
+                        "x8-a676a7aa26bfd4f7132026d1fd2ad7f42858eac2c10160e50c99648986ea2d28.jpg",
+                        "x9-61a977bf560394548b1d63a2d6365c725f2ae031afbbb884e6b71b619c08f18a.jpg",
+                        "x10-ef35d95353e3e130c21595a52c876f9ec1d3013e5e58e5641fe30adbb50edf34.jpg",
+                        "x11-c7fbc281bd62ee0d74df1aa0a2871bdac77d4172121fd31000dc7bb84f11bee8.jpg",
+                        "x12-3f47a4bc79d0fe80321b1fe2fdc659ebaf07ec2f12e2063a2e72195a4b98a08b.jpg",
+                        "x13-368bf8cd8f74e354777b16cbf90a23d2329bd528699c8f3fb22102c1563a3606.jpg",
+                        "x14-3a24438fc53ccf244c54e4f7f2143357622f3e79ab2a238c2219952e8e13e220.jpg",
+                        "x15-b05963406e0f5e5d9a954973a6f80e2c5cd5d152b81a6b7cb1921935f870efcf.jpg",
+                        "x16-42704013e8ebc0d840e69b7109188e4828145fa38df4d52fb4def3f523b06838.jpg",
+                        "x17-b7fc98282c940be895770418eab7109d46dafdf733afd222ad5f75bd0a345f24.jpg",
+                        "x18-d2a0d01c8baa0e1d0179324248982365781adaa0fcb0db2caa63db933065ce44.jpg",
+                        "x19-db34e058201c9cce120918499d2ea35f7e9633da029e069252cbc95839ab2d80.jpg",
+                        "x20-7e6539385d18798784f45b4351b4ecbe15dd85bb4a44fc31de09bbf85b164b67.jpg"
+                    ],
+                    "publishAt": "2018-03-28T16:02:07+00:00",
+                    "createdAt": "2018-03-28T16:02:07+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "ae6e06c6-e66f-4610-930e-76f29d97bdcc",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "2972c1b7-c1f5-44f0-88d0-a129ebe028ac",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "872e0951-e0b6-473b-9983-ba3ffdf11407",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "6",
+                    "title": "Going to Don-Qi at night makes you excited. Maybe late night markets too.",
+                    "translatedLanguage": "en",
+                    "hash": "43975bb1aca8cc02c35030ccc8e38157",
+                    "data": [
+                        "x1-61566e494c91e66aada8e6cd4869c632d49692f15c5bf2c2d093afd5c556534e.jpg",
+                        "x2-f172b224f1d4e89b3e347152004238dbcf40f23c5fbba379020dc68fb7bc986f.png",
+                        "x3-defc0ebaf602dd6cf70d427bd99a36929871f0ba5a1c93d75aa0330afb97a9e6.png",
+                        "x4-1611992c156e345404558cbe1e8be408e43afec81ec7d999c75870232a1846bd.png",
+                        "x5-e5525a25afc4c91df570b2a48400efcb0e9ec2be4882f8c4af79e51bf362a8c6.png",
+                        "x6-585cca2af06f026cc7c2d6f7a4b7797f23f743f63e817b3f8ae20763ed788a6f.png",
+                        "x7-8ab603f7808dacc29107c30ef652187225fe1a17403b03050d8dcf553296c157.png",
+                        "x8-b8e9feaab92881a13c1a9834f509306017621364d20a8ddf6b59ae960f2ac95d.png",
+                        "x9-538c95996e15b693c89c21b52245aa79623ccee2a8bf546adfc95900e4e0be2f.png",
+                        "x10-1fc883af655e4f494f0ca0b8b0f7ef9387c597e6b051414e296a45651ea5ccbf.png",
+                        "x11-e6b010c114e280a885dc52ab50287db00052606046ad4f95527b758a4b9bc1a6.png",
+                        "x12-53042d8bdf2d01cc3a9b87be8091c5e423c1d8acaddb63a5323d260030e1d560.png",
+                        "x13-88ecaf0d75fb9632802f7eb918df585ac67906c06d9b7bca538951fec8299ad8.png",
+                        "x14-d7528986093a19038437d363e3b8619edfc54a35fec076e7500a0967bdd64726.png",
+                        "x15-fc6e5d5a9dd69acfe5fdfc56e6885011c8923d1612a255dfa23cde8558e36596.png",
+                        "x16-bfb3ea8182b57ac9e4e8c8fb95a370ea1b6507591743822c77a56537c8baf866.png",
+                        "x17-acb31d8cec414c4a1584ead1750ff8e36f701ae8e753ed2c77828b32e5453219.png"
+                    ],
+                    "dataSaver": [
+                        "x1-08df91eac2ba3af688ef0da1d32781752e4bbf089def721693a85465e1646f02.jpg",
+                        "x2-27fa8fedffa7c836c7a9045fc93081deddc82876dfa96ffa0f9db95595641891.jpg",
+                        "x3-f2a5d3f28052f252e93dbb0d52dcb8618c3552d81d16a047a313c6db6bfe945f.jpg",
+                        "x4-f11d415b9035f48fbcd3f90c907f3a2d803bcc8af6ff395f0fc7a504d84c5430.jpg",
+                        "x5-b37feea21738a253b7dde0c680d5bf4d6d11783cfd107f452e22a180d041a1f3.jpg",
+                        "x6-24654983a2de10be0cb0b06d931f66dddbd4c5611c1ee75ef370554abf5bec9c.jpg",
+                        "x7-37e5c7680aa90421cc2faf2dce20341ae3d5a40773b628a7327b4d13076b6ca8.jpg",
+                        "x8-75776b850850119c27c9bcd2789cd64e70531f732b3f445170f8d45bd1421e67.jpg",
+                        "x9-ae04099ce1c6bddf565f741abbb131a2e320be8b0d736ac3198d138ef547ec0a.jpg",
+                        "x10-c3d19575837307e9e3e421c9d5fff2d5e00ae69731c15a62b1ebf8d0e4d4ec66.jpg",
+                        "x11-fea39e070e4eccc05517decf19e3c491c98493afa14353405f09711b6fc2fd88.jpg",
+                        "x12-975b4c7fdbea1f634b9a829695f6b64f31c758e7e765f037fbc6c2200badd602.jpg",
+                        "x13-f5e77ded6b5b54479dc5520d394d7ac7ece235cc21bb9723a8b053d4dcbf1952.jpg",
+                        "x14-103b073fde808d7647a7df31a7d3651c29cc49fd19983cfe36831e57da0f4430.jpg",
+                        "x15-bbf0b5c20fb8d12d68dd3cd5d20682e24a115c28e0c71102447c2d0b4080c7ad.jpg",
+                        "x16-ee72e02197864426e508cb0311dcc1bbbcad54180628e66c3954475485ca0941.jpg",
+                        "x17-38f8ca472bfd0c5c3a3a52cc47005be785f0b25a2318ba97ec586a06d6bbdca0.jpg"
+                    ],
+                    "publishAt": "2018-03-29T18:29:03+00:00",
+                    "createdAt": "2018-03-29T18:29:03+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "ae6e06c6-e66f-4610-930e-76f29d97bdcc",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "2972c1b7-c1f5-44f0-88d0-a129ebe028ac",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "c6881c80-dc94-4db2-96eb-e046ed459cf9",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "7",
+                    "title": "I'll sleep even though Luna-chan's telling me to wake up. Sleep like a rock.",
+                    "translatedLanguage": "en",
+                    "hash": "97a70c21cce6373ead6a23fae6839ec9",
+                    "data": [
+                        "x1-d1fbbb09251c85976828ec65671af7d442900179ebb21a58c85b067e47e033b8.png",
+                        "x2-d3c4619fc535bf18bcc68e5ed98416f52804d72fae39342c34546dcdd218e051.png",
+                        "x3-602d215ef3c447c05a0c8c4a796668ab0da6d08c73dc5915a11c334378364732.png",
+                        "x4-41aec09d3fad63a664e5118d9237cdcb236499596a575138127bc4b2bf1a0b58.png",
+                        "x5-d53f2dd6f98527b677bcb65166f74b4722b9433fa7d9e096282f4c8177872efe.png",
+                        "x6-8d64f93b0d3012802a521eca604815e1014401256da161d6d4aab030f6d692fd.png",
+                        "x7-2d491318426170d911a5af4df28d353cdbb20e2b7de584fc137f8679213901f2.png",
+                        "x8-4e36f3eba454411b70feeed32922069066f8ec498a0b186ccc61396d5d07e977.png",
+                        "x9-5bad0722a6aa777a3aa0eaf144aa380462f5c380ee2a34b3dd382924bf981fe7.png",
+                        "x10-ab45784b7f5ce0f728a99865cbe7c9ecdd43cf637b14411938945fbabff77a88.png",
+                        "x11-09211eaf13bd7c9b51492fa4f45273955a2d1eb68f8e501121cbc4af4191bc46.png",
+                        "x12-a2246b58bcd6484d1eaab699b04724de1d8f269107f3e1075b3e7a1043b747e5.png",
+                        "x13-05f505cdfa8d0f5740487d6fc2c28269e71de98aeb0d7324ee46ea75dd2371f0.png",
+                        "x14-9207bfa666ba101dc2fa8f0de590d3fb905fff056a75936646803e07e5d9e7c8.png",
+                        "x15-2b9349dc658d71d77dd81946475c3ccf750980a97b896f54d95b5db60701fab8.png",
+                        "x16-4b7bc6751dd000b81ec8335d8a66059fecfeda651977e40f9c7ccbe754d5fe77.png",
+                        "x17-852aae3a3f76f1ad0ef06f56f2b5565d5d911209fda4d000e0a945fd791ab253.png",
+                        "x18-81eb25f98c1365dbeb18274b244e18237f02784d9637afea74f685ba1fe8aca1.png",
+                        "x19-b8bdea220d9ad4bc6a23b8e469ca09123f1109a4fde89661de6dd8e08b9c9ab0.png",
+                        "x20-3f3da16c195b289540680179d9c7537e3a58e4d40087c858e10fcf09fb8f9e3e.png",
+                        "x21-23263d8ff85007a2800b59b0f9227b050c7f5cf019ae0e29fe5c62851acd843d.png",
+                        "x22-cc344ab2ca4aa8f4cf632499a7b93be9c660817586d30b6d80aea69f0ad52c03.png",
+                        "x23-543368f26004616f816263f5e1f4c0d812b170b5a232cb8d4b7997d3a45b946a.png",
+                        "x24-6bb3e968c505e05c395c3746c83140a3f238fb5f637dd21362031619edce4618.png"
+                    ],
+                    "dataSaver": [
+                        "x1-f94f5ea8a72317a725872d2db83de588a9ab2eca8c2bf2867857a8759d3fcb09.jpg",
+                        "x2-8451e90ab7821c905738316390b911bbb7914e7e511ffccb30e0e3dd91e2d3fb.jpg",
+                        "x3-1fee3d95f1cabc19595c60487c39ebda7ba3e81663f6cce09cbc5d6f7f304906.jpg",
+                        "x4-6bb2db8774fa03117f023e395d0acd0dbcdda21871aaafcd0ac28b08db2f6c0c.jpg",
+                        "x5-48f7061e1a8d89dfe3109a9cd4d72f2715fb345d92f2329b448f06ffe0b4cce7.jpg",
+                        "x6-bd4cde348ca29398111a9b3f809669ba058d02d2efd6cd756e3b10ac7bc7805b.jpg",
+                        "x7-e04c24f3c6e386d72bd53641abebed53e4c5460cc9c95ce4b2262bdd16c8de89.jpg",
+                        "x8-5ea57df98b37af6a78e277f9cce20d97550d90fefde3ff27f83460ea9b070186.jpg",
+                        "x9-757d0479b177cce09e342c049c1294de15955ede9e0bf9dcd04d0e5f18e13834.jpg",
+                        "x10-7ab266c2b8f3cd06a7fb7a9f3bf39d1cd4d4934c5617b52f0d006dc890bd8258.jpg",
+                        "x11-986c9bbe6c9e31f2d9816addbddcb6d8cdfad44fbb8bf37cad6cdf493ad2dd98.jpg",
+                        "x12-420b4bd8cacb9af50016c3b0692c3119f060ae0d8f7c1897b6be4a86adc80904.jpg",
+                        "x13-5e8b04342c370c6c1fd041752d531edf445f25ce896e3aab178226594991c95c.jpg",
+                        "x14-4e91cb04dd53886dedb68b31f6dfe4edc44fa33e876ddab5e0902c965b65e717.jpg",
+                        "x15-fbb0eddf27ebe8fc177bfe7f7c8fe4722dddc27000ce4a8d63ac6fe956e1f7e5.jpg",
+                        "x16-49e45f149f4cb16f5e29a9384ef53cab61c1b89b72b3d73e446a8278780fa7c4.jpg",
+                        "x17-c5f4bae15a10fd8a71054df2bda3945a2abfdc03daaeac0c0c8cf9de90b32332.jpg",
+                        "x18-a4d4aada1b863c06b42fe81742fac452ac2a4b3bb8f88d85ce1bca571c4e2c44.jpg",
+                        "x19-984112fca5b905424556416d4086b5aba1e4b051d00c1729594f08deb402d2e4.jpg",
+                        "x20-3850f99df48e552107a5691335970c0aee72b2424ade226767022843094baf38.jpg",
+                        "x21-aa9b4277a288f4ee677b9304587ec3cfb1571ba6fad19f186406c2886f1f11cb.jpg",
+                        "x22-af73474acb69141ca3503a7195f66cf58c17de8c3b287ebfdbe517720c2e087d.jpg",
+                        "x23-3000d345c4672c3d604747a01a4fac0501f456b16abc31bf96d939a5a7b27de2.jpg",
+                        "x24-d21aff68908d1ed6477464ca7a3d190b7bf5012a1f7d65f0b52ce0fae0ac6a0d.jpg"
+                    ],
+                    "publishAt": "2018-03-31T05:11:13+00:00",
+                    "createdAt": "2018-03-31T05:11:13+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "ae6e06c6-e66f-4610-930e-76f29d97bdcc",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "2972c1b7-c1f5-44f0-88d0-a129ebe028ac",
+                    "type": "user"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "e395b8a4-7c5e-4827-847d-a797bd33771b",
+                "type": "chapter",
+                "attributes": {
+                    "volume": 1,
+                    "chapter": "6",
+                    "title": "Ночной поход в Донки не оставил тебя равнодушной. Ты любишь круглосуточные магазины?",
+                    "translatedLanguage": "ru",
+                    "hash": "2094af4a2d70a1946699eef576533ff9",
+                    "data": [
+                        "x1-3531e2503556313d78529a17df8aab30b05d83460d63f03cb7218adbe81b9deb.png",
+                        "x2-3f7716e871edf6787195b78db7efd751eb6a066fa61d14c5a3e1ae91e3ed3718.png",
+                        "x3-682678daaf647fea6637e9f135edd941261837e32893816ab33801243fdac6cb.png",
+                        "x4-82f53776121d3918c1c1fa1f1e22facf93fe68730ad4e93b32051203d3219110.png",
+                        "x5-b9c8df5e73a06432603901c7b56870f4c36cf59d4d5755e8328c9d874d1e1bbe.png",
+                        "x6-1ee0b8e3fe7c111205f05ca602aa651bdcb009203fbef41d5361b2daa764c069.png",
+                        "x7-b7312702cd26aa2a554750fec64236b7931fe72faf2b5dbd9f5decbf11a26733.png",
+                        "x8-8403ae2d58e43de717e19907597bcc66eaae92fd5cbfc9a75170a203048085cc.png",
+                        "x9-fe0e62996def775f055e4374943acee9befc3701fdd47c5baf14bed754122e20.png",
+                        "x10-61c779092c35bba56eb25e6e87f5b06e285b7c209cab4a5f3432c085246e9499.png",
+                        "x11-70598b543da65b553f4abd5cfe2c4f4c9e03952e6d58aa3d1e50de987dfcd128.png",
+                        "x12-6f5878dadd666fab2f2d1ea143367dfe2ae4179180c9c4f576e2962f7de47838.png",
+                        "x13-77c4730a78699ef29997264218a3954a5ea0773a52eb589f5f62ab434cbceac6.png",
+                        "x14-9a85545af1aa748c403e7ca61a53cbd0928340c9f54142575637401a29c860bf.png",
+                        "x15-cb8706fad9e98de13ff81c9d2de8bf3bf62d0d985166842a6f66cdf6bf6eeb80.png",
+                        "x16-44ae494b088d69fca7bcec7b8efea4c8b6712f4acef9030d1016344fc6fccedc.png",
+                        "x17-5e89a8719409431236c526428ad94b72ce423a99307579fbd86922afec1af85a.png",
+                        "x18-d533686d2e1577edc0add7b23d8d00499cd59a1fbca8be3db205005a99160c3e.png",
+                        "x19-35f77cf5e9783d1706d6e122acc3250c6fd49df103afce564e70e81cf8e4a615.png"
+                    ],
+                    "dataSaver": [
+                        "x1-55ea6db289e196bc4810b496ac406adc78b515118c4a2ccdd2b3f29fd03402fb.jpg",
+                        "x2-72ebd101d1b7977c49b2bc5a82d4a71147dbc12115ce0808c61daed533fce10b.jpg",
+                        "x3-9928e56abd5aea7cce6b809e178a80ad40ec271cb5819a1708828c2d3211ab97.jpg",
+                        "x4-01c7f7e8ffe8cee6f3cd6b7951d45e78916a854c5196d976b308bf2ba2060b35.jpg",
+                        "x5-831b8d1edbcd949203a2d54e45dcfa7090fa17448895adecd94fdd8ff3cb80f6.jpg",
+                        "x6-f7b8df8b948cb8fcea72e86a16c297741b6c4eb0bfdb151157aafbafe1b2e4a9.jpg",
+                        "x7-9049cd4bb2bc44927f2edd5cd5001cf4e28dc51cb21d5b67daf9374211e1ae75.jpg",
+                        "x8-4f056d5184aa4971a1cb0d64a692972859f5a6c843120f45dc86daf65e663e7e.jpg",
+                        "x9-9d5964c1bc960673d3d686d1cdd7befe438e215ed85e6dcc6dd2a38396a38d7f.jpg",
+                        "x10-02acdaa6f118c9f5f6ed63241c0ad1b649ff3a10830398d3698a371bd86a7e6f.jpg",
+                        "x11-01ec2550be16d4521392fb69537e3962d199977b12925188bce87186b4dc1209.jpg",
+                        "x12-709940827e72dcec265a0459a1b01b4e9eec2d15af057c313ca361f2fd6dfb96.jpg",
+                        "x13-379f448ebea7213930d8d5942e058b06e692a4ab4fb79246e6ee5fa792eb360f.jpg",
+                        "x14-66e14144b034d43da5e46d606fa3d3f2e3d06ffbe02d1e6840beec879b261588.jpg",
+                        "x15-5e5272e21cb58d7d561cd2895485a31375d09752031cb56b6a370cf63abe3795.jpg",
+                        "x16-2ee685067f55f3b80fc6ac86dc45bcc5cc999a585bdd91723ea2a6f82d2b9ac2.jpg",
+                        "x17-9500ce20c9e0c634b8e0f729e0d4d9f86eafb870e16f6c1be200af76debbf255.jpg",
+                        "x18-7a61634df411deac6cf73d9183a282c4d33bda6e8968e3f97752e9afd417ddff.jpg",
+                        "x19-45c29df0148df7650df3fc9b17c1315421289a983e017d989722d558b9e75eea.jpg"
+                    ],
+                    "publishAt": "2018-04-03T11:43:33+00:00",
+                    "createdAt": "2018-04-03T11:43:33+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "9aa2b503-c68c-4437-a911-d4801e785a69",
+                    "type": "scanlation_group"
+                },
+                {
+                    "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                    "type": "manga"
+                },
+                {
+                    "id": "b4526ebc-5c77-495f-9f6a-96ad75a8d8e8",
+                    "type": "user"
+                }
+            ]
+        }
+    ],
+    "limit": 10,
+    "offset": 0,
+    "total": 597
+}

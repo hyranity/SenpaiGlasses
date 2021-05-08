@@ -52,6 +52,7 @@ class Manga {
   final String status;
   final String contentRating;
   final String modNotes;
+  final String imageUrl;
 
   final String lastChapter;
 
@@ -79,7 +80,8 @@ class Manga {
       this.version,
       this.alternateTitles,
       this.authors,
-      this.artists);
+      this.artists,
+      this.imageUrl);
 
   @override
   factory Manga.fromJson(Map<String, dynamic> json) => _$MangaFromJson(json);

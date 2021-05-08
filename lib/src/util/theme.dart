@@ -6,6 +6,7 @@ abstract class ThemeBase {
   Color get accent;
   Color get inputBackground;
   Color get inputText;
+  Color get blurColor;
 }
 
 class MainTheme implements ThemeBase {
@@ -23,4 +24,7 @@ class MainTheme implements ThemeBase {
 
   @override
   Color get inputText => Color(0xffAFB3C6);
+
+  @override
+  Color get blurColor => Color(0xff191836);
 }

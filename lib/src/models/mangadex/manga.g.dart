@@ -78,6 +78,7 @@ Manga _$MangaFromJson(Map<String, dynamic> json) {
     (json['alternateTitles'] as List)?.map((e) => e as String)?.toList(),
     (json['authors'] as List)?.map((e) => e as String)?.toList(),
     (json['artists'] as List)?.map((e) => e as String)?.toList(),
+    json['imageUrl'] as String,
   );
 }
 
@@ -87,6 +88,7 @@ Map<String, dynamic> _$MangaToJson(Manga instance) => <String, dynamic>{
       'status': instance.status,
       'contentRating': instance.contentRating,
       'modNotes': instance.modNotes,
+      'imageUrl': instance.imageUrl,
       'lastChapter': instance.lastChapter,
       'year': instance.year,
       'lastVolume': instance.lastVolume,

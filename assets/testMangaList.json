@@ -1,0 +1,744 @@
+{
+    "results": [
+        {
+            "result": "ok",
+            "data": {
+                "id": "ac2170e7-5eb7-4db2-92da-9fdaf45f8ae6",
+                "type": "manga",
+                "attributes": {
+                    "title": {
+                        "en": "Kantai Collection -KanColle- The Universally Cute Shoukaku-san (Doujinshi)"
+                    },
+                    "altTitles": [
+                        {
+                            "en": "(COMIC1☆13) [-Sakimiya- (sakimiya)] Tonikaku Kawaii Shoukaku-san (Kantai Collection -KanColle-)"
+                        },
+                        {
+                            "en": "(COMIC1☆13) [-Sakimiya- (sakimiya)] とにかくかわいい翔鶴さん (艦隊これくしょん -艦これ-)"
+                        }
+                    ],
+                    "description": {
+                        "en": ""
+                    },
+                    "isLocked": false,
+                    "links": null,
+                    "originalLanguage": "ja",
+                    "lastVolume": null,
+                    "lastChapter": "0",
+                    "publicationDemographic": null,
+                    "status": "completed",
+                    "year": null,
+                    "contentRating": "safe",
+                    "tags": [
+                        {
+                            "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Oneshot"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Comedy"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Doujinshi"
+                                },
+                                "version": 1
+                            }
+                        }
+                    ],
+                    "createdAt": "2021-04-19T21:46:43+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "99f567c3-adae-4d3d-966a-108a68b834de",
+                    "type": "author"
+                },
+                {
+                    "id": "992721dd-e6c2-4a92-9be8-7d1828e884a6",
+                    "type": "artist"
+                },
+                {
+                    "id": "e5425214-392b-4b09-8fc6-32aef68fdab5",
+                    "type": "chapter"
+                },
+                {
+                    "id": "16ecbd0f-4346-4734-9c2e-862bd02e5eff",
+                    "type": "chapter"
+                },
+                {
+                    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+                    "type": "tag"
+                },
+                {
+                    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+                    "type": "tag"
+                },
+                {
+                    "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+                    "type": "tag"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "56030203-42bc-48b0-9672-1a166f49a175",
+                "type": "manga",
+                "attributes": {
+                    "title": {
+                        "en": "Hidoku Shinai de - Boku no Kareshi wa Tonikaku Kawaii (Doujinshi)"
+                    },
+                    "altTitles": [
+                        {
+                            "en": "Hidoku Shinai de dj - My Boyfriend Is Cute Anyway"
+                        },
+                        {
+                            "en": "酷くしないで dj - ぼくのカレシはとにかくかわいい"
+                        }
+                    ],
+                    "description": {
+                        "en": "Maya and Nemugasa have some fun with something Maya used on Nemu long ago&hellip;"
+                    },
+                    "isLocked": false,
+                    "links": {
+                        "mu": "117304"
+                    },
+                    "originalLanguage": "ja",
+                    "lastVolume": 1,
+                    "lastChapter": "1",
+                    "publicationDemographic": null,
+                    "status": "completed",
+                    "year": null,
+                    "contentRating": "pornographic",
+                    "tags": [
+                        {
+                            "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Oneshot"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Boy's Love"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Doujinshi"
+                                },
+                                "version": 1
+                            }
+                        }
+                    ],
+                    "createdAt": "2021-04-19T21:46:43+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "1696b018-ca96-45cc-8c17-b30cc1432170",
+                    "type": "author"
+                },
+                {
+                    "id": "1696b018-ca96-45cc-8c17-b30cc1432170",
+                    "type": "artist"
+                },
+                {
+                    "id": "e69c6d61-fc8e-4804-8f46-85c1c02891db",
+                    "type": "chapter"
+                },
+                {
+                    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+                    "type": "tag"
+                },
+                {
+                    "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
+                    "type": "tag"
+                },
+                {
+                    "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+                    "type": "tag"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "aa63d85a-7196-4b43-918a-7b0b15436473",
+                "type": "manga",
+                "attributes": {
+                    "title": {
+                        "en": "Tonikaku Ore wa Otokonoko Elf to Ecchi ga Shitainda"
+                    },
+                    "altTitles": [
+                        {
+                            "en": "Elf Brothel 1"
+                        },
+                        {
+                            "en": "とにかく俺は男の娘エルフとエッチがしたいんだ"
+                        }
+                    ],
+                    "description": {
+                        "en": ""
+                    },
+                    "isLocked": false,
+                    "links": null,
+                    "originalLanguage": "ja",
+                    "lastVolume": null,
+                    "lastChapter": "0",
+                    "publicationDemographic": null,
+                    "status": "completed",
+                    "year": null,
+                    "contentRating": "pornographic",
+                    "tags": [
+                        {
+                            "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Oneshot"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Boy's Love"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Shota"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Supernatural"
+                                },
+                                "version": 1
+                            }
+                        }
+                    ],
+                    "createdAt": "2021-04-19T21:46:43+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "4b503f66-1708-43d0-a531-98e13f090a78",
+                    "type": "author"
+                },
+                {
+                    "id": "580b7fef-62cd-4c25-8925-489fa6842a4e",
+                    "type": "author"
+                },
+                {
+                    "id": "4b503f66-1708-43d0-a531-98e13f090a78",
+                    "type": "artist"
+                },
+                {
+                    "id": "580b7fef-62cd-4c25-8925-489fa6842a4e",
+                    "type": "artist"
+                },
+                {
+                    "id": "f9a42908-b081-44de-9d5a-5dec426bdae6",
+                    "type": "chapter"
+                },
+                {
+                    "id": "0234a31e-a729-4e28-9d6a-3f87c4966b9e",
+                    "type": "tag"
+                },
+                {
+                    "id": "5920b825-4181-4a17-beeb-9918b0ff7a30",
+                    "type": "tag"
+                },
+                {
+                    "id": "ddefd648-5140-4e5f-ba18-4eca4071d19b",
+                    "type": "tag"
+                },
+                {
+                    "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+                    "type": "tag"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "6b075548-2cd7-47cd-88a9-fcb1783e60ff",
+                "type": "manga",
+                "attributes": {
+                    "title": {
+                        "en": "Tonari no Furi-san ga Tonikaku Kowai"
+                    },
+                    "altTitles": [
+                        {
+                            "en": "No Matter What You Say, Furi-san is Scary."
+                        },
+                        {
+                            "en": "となりの布里さんがとにかくコワい。"
+                        }
+                    ],
+                    "description": {
+                        "en": "Ordinary High-schooler Taira Namito, who is ordinary inside, unknowingly becomes the target of the female delinquent-looking girl Furi Youko, a pure maiden at heart, who sits next to him."
+                    },
+                    "isLocked": false,
+                    "links": {
+                        "al": "106660",
+                        "bw": "series/211875",
+                        "kt": "55062",
+                        "mu": "152236",
+                        "amz": "https://www.amazon.co.jp/dp/4758083274",
+                        "ebj": "https://ebookjapan.yahoo.co.jp/books/551658",
+                        "mal": "118741",
+                        "raw": "https://pocket.shonenmagazine.com/episode/10834108156751918875"
+                    },
+                    "originalLanguage": "ja",
+                    "lastVolume": null,
+                    "lastChapter": "0",
+                    "publicationDemographic": "seinen",
+                    "status": "ongoing",
+                    "year": null,
+                    "contentRating": "safe",
+                    "tags": [
+                        {
+                            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Romance"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Comedy"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Drama"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "School Life"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Slice of Life"
+                                },
+                                "version": 1
+                            }
+                        }
+                    ],
+                    "createdAt": "2021-04-19T21:46:43+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "106dcca6-f848-4fcb-a10c-1c9fb241e14b",
+                    "type": "author"
+                },
+                {
+                    "id": "106dcca6-f848-4fcb-a10c-1c9fb241e14b",
+                    "type": "artist"
+                },
+                {
+                    "id": "c65fb415-23be-4f5c-a045-73927f79f190",
+                    "type": "chapter"
+                },
+                {
+                    "id": "fd9955d1-7f61-4aee-b4c3-80b54a972345",
+                    "type": "chapter"
+                },
+                {
+                    "id": "dbfccf1e-2ce9-4d97-86ae-848b24098f76",
+                    "type": "chapter"
+                },
+                {
+                    "id": "5202b58f-c84b-4afd-a1c5-925a2765e7ec",
+                    "type": "chapter"
+                },
+                {
+                    "id": "1a92ea9a-c272-4134-9cea-6a82010cfa52",
+                    "type": "chapter"
+                },
+                {
+                    "id": "831a52a9-81e1-4544-86ba-ec143078c2d3",
+                    "type": "chapter"
+                },
+                {
+                    "id": "494582c4-f842-4bc5-b907-6596f11be292",
+                    "type": "chapter"
+                },
+                {
+                    "id": "e27a7194-6ed7-42d7-a3c4-8614d58f5787",
+                    "type": "chapter"
+                },
+                {
+                    "id": "0c572a3e-ff54-48bf-b317-cb085a471e31",
+                    "type": "chapter"
+                },
+                {
+                    "id": "139300c5-3fde-4f9b-b878-828569d5c02f",
+                    "type": "chapter"
+                },
+                {
+                    "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+                    "type": "tag"
+                },
+                {
+                    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+                    "type": "tag"
+                },
+                {
+                    "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+                    "type": "tag"
+                },
+                {
+                    "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+                    "type": "tag"
+                },
+                {
+                    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+                    "type": "tag"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "9e9a189e-c2cd-46fa-8add-1f6fc9ad24e2",
+                "type": "manga",
+                "attributes": {
+                    "title": {
+                        "en": "Tonikaku Kimi ga."
+                    },
+                    "altTitles": [
+                        {
+                            "en": "Anyway, I xxx you!!!"
+                        },
+                        {
+                            "en": "とにかくキミが。"
+                        }
+                    ],
+                    "description": {
+                        "en": "Koito Matsuda, daughter of a policeman, believes people are pure and hate crooked behavior. At her first day of high school she meets Taiga Akiyama, who repeated a year and was known for cause problems. However Koito still believes he is a good person and tries to get him fit in their class."
+                    },
+                    "isLocked": false,
+                    "links": {
+                        "al": "93445",
+                        "ap": "tonikaku-kimi-ga",
+                        "kt": "33776",
+                        "mu": "106601",
+                        "amz": "https://www.amazon.co.jp/gp/product/B074CH3M4L/",
+                        "mal": "83731"
+                    },
+                    "originalLanguage": "ja",
+                    "lastVolume": 2,
+                    "lastChapter": "10",
+                    "publicationDemographic": "shoujo",
+                    "status": "completed",
+                    "year": null,
+                    "contentRating": "safe",
+                    "tags": [
+                        {
+                            "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "School Life"
+                                },
+                                "version": 1
+                            }
+                        }
+                    ],
+                    "createdAt": "2021-04-19T21:46:43+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "b8574582-4b02-4b17-adf8-a8f160fa82cc",
+                    "type": "author"
+                },
+                {
+                    "id": "b8574582-4b02-4b17-adf8-a8f160fa82cc",
+                    "type": "artist"
+                },
+                {
+                    "id": "72e5da5e-daed-4b81-83a1-e756b8a71f39",
+                    "type": "chapter"
+                },
+                {
+                    "id": "1e81200b-2d1c-4331-b2e7-fba8d5f383ab",
+                    "type": "chapter"
+                },
+                {
+                    "id": "c021bf41-8275-4328-b36d-ce19bd7ef414",
+                    "type": "chapter"
+                },
+                {
+                    "id": "ae67f97e-6640-4360-a954-70091dd7abd7",
+                    "type": "chapter"
+                },
+                {
+                    "id": "9982cbef-8570-4de8-8f23-bb4567a31bc9",
+                    "type": "chapter"
+                },
+                {
+                    "id": "bbb94bd4-cfd4-4d52-83c3-51a423b00174",
+                    "type": "chapter"
+                },
+                {
+                    "id": "1fceb158-b6bd-4ff1-a1d4-cd8533a0adbb",
+                    "type": "chapter"
+                },
+                {
+                    "id": "de2a9f80-5b75-4c6e-ba30-8bcdedb42302",
+                    "type": "chapter"
+                },
+                {
+                    "id": "657bc72e-ead9-4681-9dee-07f01f6af4d9",
+                    "type": "chapter"
+                },
+                {
+                    "id": "283d933b-dcc9-4e04-a7d3-37760b59124c",
+                    "type": "chapter"
+                },
+                {
+                    "id": "caaa44eb-cd40-4177-b930-79d3ef2afe87",
+                    "type": "tag"
+                }
+            ]
+        },
+        {
+            "result": "ok",
+            "data": {
+                "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+                "type": "manga",
+                "attributes": {
+                    "title": {
+                        "en": "Tonikaku Kawaii"
+                    },
+                    "altTitles": [
+                        {
+                            "en": "Cute Anyways"
+                        },
+                        {
+                            "en": "Fly Me to The Moon (HATA Kenjiro)"
+                        },
+                        {
+                            "en": "Tonikaku Cawaii"
+                        },
+                        {
+                            "en": "TONIKAWA: Over The Moon For You"
+                        },
+                        {
+                            "en": "Унеси меня на Луну"
+                        },
+                        {
+                            "en": "トニカクカワイイ"
+                        },
+                        {
+                            "en": "总之就是非常可爱"
+                        },
+                        {
+                            "en": "어쩄든 귀여워"
+                        }
+                    ],
+                    "description": {
+                        "en": "Described as a story full of &quot;love&quot; and &quot;dreams&quot;, Tonikaku Cawaii follows a protagonist whose name is written with the characters for &quot;Hoshizora&quot; (&quot;Starry Sky&quot; in Japanese), but whose name is pronounced as &quot;Nasa&quot;. On the day of his high school entrance exams, Nasa encounters a beautiful girl. For Nasa, it feels like destiny is finally calling out to him that he will have a girl friend, but...\r\n\r\n[b][u]Russian / Русский[/u][/b] [spoiler] Тяжело жить, если родители дали тебе имя НАСА - да, как NASA, и каждый второй спрашивает, пойдешь ли ты в астронавты. Еще тяжелее, если в один день тебя собьет грузовик, ты встретишь любовь всей своей жизни и тут же ее потеряешь, согласившись жениться на ней. Мужик сказал, что женится - значит женись. И заверьте... Веселая комедия положений без особой логики, но с неожиданными поворотами сюжета. Ведь жена и правда с Луны?..[/spoiler] \r\n\r\n[b]Tonikaku Cawaii is the official romanization.[/b]"
+                    },
+                    "isLocked": true,
+                    "links": {
+                        "al": "101177",
+                        "ap": "tonikaku-cawaii",
+                        "bw": "series/161304/list",
+                        "kt": "40657",
+                        "mu": "147154",
+                        "amz": "https://www.amazon.co.jp/dp/B07CP47FFL/ref=dp-kindle-redirect?_encoding=UTF8&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;btkr=1",
+                        "mal": "112589",
+                        "engtl": "https://www.viz.com/fly-me-to-the-moon"
+                    },
+                    "originalLanguage": "ja",
+                    "lastVolume": null,
+                    "lastChapter": "0",
+                    "publicationDemographic": "shounen",
+                    "status": "ongoing",
+                    "year": null,
+                    "contentRating": "safe",
+                    "tags": [
+                        {
+                            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Romance"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Comedy"
+                                },
+                                "version": 1
+                            }
+                        },
+                        {
+                            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+                            "type": "tag",
+                            "attributes": {
+                                "name": {
+                                    "en": "Slice of Life"
+                                },
+                                "version": 1
+                            }
+                        }
+                    ],
+                    "createdAt": "2021-04-19T21:46:43+00:00",
+                    "updatedAt": null,
+                    "version": 1
+                }
+            },
+            "relationships": [
+                {
+                    "id": "255f84b7-9176-49ca-b005-92c478440b2e",
+                    "type": "author"
+                },
+                {
+                    "id": "255f84b7-9176-49ca-b005-92c478440b2e",
+                    "type": "artist"
+                },
+                {
+                    "id": "741e6660-06ce-4493-97e3-7226318e051e",
+                    "type": "chapter"
+                },
+                {
+                    "id": "9a3a57b5-5fb6-4e8e-895e-51b3b18b20aa",
+                    "type": "chapter"
+                },
+                {
+                    "id": "41c9f617-d746-47ac-a617-ec0d7e4a3830",
+                    "type": "chapter"
+                },
+                {
+                    "id": "52c671b8-7aaf-4ea7-8d0e-2743d9363558",
+                    "type": "chapter"
+                },
+                {
+                    "id": "48f050b4-dea8-4717-ab0f-80ee903dc93a",
+                    "type": "chapter"
+                },
+                {
+                    "id": "d150ea42-56f7-4eac-b866-9de9affb1cf6",
+                    "type": "chapter"
+                },
+                {
+                    "id": "bffb5556-afdf-4e82-9128-8bf0c049747b",
+                    "type": "chapter"
+                },
+                {
+                    "id": "98e0d3eb-a488-4d0e-a095-2767306d002b",
+                    "type": "chapter"
+                },
+                {
+                    "id": "0711951b-b6ae-461f-b089-295518d47a51",
+                    "type": "chapter"
+                },
+                {
+                    "id": "9e31e844-3eaa-499f-bc8d-18219009d939",
+                    "type": "chapter"
+                },
+                {
+                    "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+                    "type": "tag"
+                },
+                {
+                    "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+                    "type": "tag"
+                },
+                {
+                    "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+                    "type": "tag"
+                }
+            ]
+        }
+    ],
+    "limit": 10,
+    "offset": 0,
+    "total": 6
+}
