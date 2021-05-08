@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:senpai_glasses/src/common/manager/NavigationService.dart';
+import 'package:senpai_glasses/src/common/manager/navigator_service.dart';
 import 'package:senpai_glasses/src/util/page.dart';
 import 'package:senpai_glasses/src/util/theme.dart';
 import 'package:senpai_glasses/src/views/home.dart';

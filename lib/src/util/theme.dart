@@ -7,6 +7,8 @@ abstract class ThemeBase {
   Color get inputBackground;
   Color get inputText;
   Color get blurColor;
+  Color get volumeBox;
+  Map<String, Color> get countryTextColors;
 }
 
 class MainTheme implements ThemeBase {
@@ -27,4 +29,13 @@ class MainTheme implements ThemeBase {
 
   @override
   Color get blurColor => Color(0xff191836);
+
+  @override
+  Color get volumeBox => Color(0xff505C7B);
+
+  @override
+  Map<String, Color> get countryTextColors => {
+        "en": Color(0xff637B50),
+        "ru": Color(0xff2B41B2),
+      };
 }

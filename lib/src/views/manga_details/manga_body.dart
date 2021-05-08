@@ -4,8 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:senpai_glasses/src/common/ui/vertical_line.dart';
 import 'package:senpai_glasses/src/common/ui/horizontal_stats.dart';
+import 'package:senpai_glasses/src/models/mangadex/manga.dart';
+import 'package:senpai_glasses/src/models/mangadex/manga_chapters.dart';
 import 'package:senpai_glasses/src/models/myanimelist/mal_manga.dart';
 import 'package:senpai_glasses/src/util/app_settings.dart';
+import 'package:senpai_glasses/src/common/ui/tab_row.dart';
+import 'package:senpai_glasses/src/views/manga_details/manga_chapter_list.dart';
 import 'package:transparent_image/transparent_image.dart';
 
 import 'manga_details.dart';
@@ -14,9 +18,13 @@ class MangaBody extends StatefulWidget {
   const MangaBody({
     Key key,
     @required this.malManga,
+    this.manga,
+    this.chapters,
   }) : super(key: key);
 
   final MALManga malManga;
+  final Manga manga;
+  final MangaChaptersResponseList chapters;
 
   @override
   _MangaBodyState createState() => _MangaBodyState();
@@ -27,64 +35,84 @@ class _MangaBodyState extends State<MangaBody> {
 
   @override
   Widget build(BuildContext context) {
-    print(MediaQuery.of(context).size.width * 0.6);
     return Container(
-      child: Stack(
+      child: Column(
         children: [
           backgroundImage(
             context,
-            child: Align(
-              alignment: Alignment.center,
-              child: Container(
-                  // height: MediaQuery.of(context).size.height * 0.7,
-                  width: MediaQuery.of(context).size.width *
-                      (AppSettings().isMobile ? 0.9 : 0.6),
-                  margin: EdgeInsets.only(top: 150),
-                  alignment: Alignment.center,
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      imageAndStats(),
-                      SizedBox(height: 40),
-                      GestureDetector(
-                        onTap: () =>
-                            setState(() => expandDesc = expandDesc == false),
-                        child: Container(
-                          width: MediaQuery.of(context).size.width * 0.7,
-                          child: AnimatedCrossFade(
-                            crossFadeState: expandDesc
-                                ? CrossFadeState.showFirst
-                                : CrossFadeState.showSecond,
-                            duration: Duration(milliseconds: 300),
-                            firstChild: Text(
-                              '${widget.malManga.synopsis}',
-                              maxLines: null,
-                              style: GoogleFonts.poppins(
-                                fontSize: 18,
-                                fontWeight: FontWeight.w400,
-                                color: AppSettings().theme.primary,
-                              ),
-                            ),
-                            secondChild: Text(
-                              '${widget.malManga.synopsis}',
-                              overflow: TextOverflow.ellipsis,
-                              maxLines: 5,
-                              style: GoogleFonts.poppins(
-                                fontSize: 18,
-                                fontWeight: FontWeight.w400,
-                                color: AppSettings().theme.primary,
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(height: 40),
-                    ],
-                  )),
+            child: Column(
+              children: [
+                centerDetails(context),
+                TabRow(
+                  buttonLabels: ["Chapters", "Reviews", "More info"],
+                  onTabSwitch: (index) {
+                    print("switched to $index");
+                  },
+                ),
+              ],
             ),
           ),
+          MangaChapterList(
+            malManga: widget.malManga,
+            manga: widget.manga,
+            chapters: widget.chapters,
+          ),
         ],
+      ),
+    );
+  }
+
+  Align centerDetails(BuildContext context) {
+    return Align(
+      alignment: Alignment.center,
+      child: Container(
+          // height: MediaQuery.of(context).size.height * 0.7,
+          width: MediaQuery.of(context).size.width *
+              (AppSettings().isMobile ? 0.9 : 0.6),
+          margin: EdgeInsets.only(top: 150),
+          alignment: Alignment.center,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              imageAndStats(),
+              SizedBox(height: 40),
+              description(context),
+              SizedBox(height: 50),
+            ],
+          )),
+    );
+  }
+
+  GestureDetector description(BuildContext context) {
+    return GestureDetector(
+      onTap: () => setState(() => expandDesc = expandDesc == false),
+      child: Container(
+        width: MediaQuery.of(context).size.width * 0.7,
+        child: AnimatedCrossFade(
+          crossFadeState:
+              expandDesc ? CrossFadeState.showFirst : CrossFadeState.showSecond,
+          duration: Duration(milliseconds: 300),
+          firstChild: Text(
+            '${widget.malManga.synopsis}',
+            maxLines: null,
+            style: GoogleFonts.poppins(
+              fontSize: 18,
+              fontWeight: FontWeight.w400,
+              color: AppSettings().theme.primary,
+            ),
+          ),
+          secondChild: Text(
+            '${widget.malManga.synopsis}',
+            overflow: TextOverflow.ellipsis,
+            maxLines: 5,
+            style: GoogleFonts.poppins(
+              fontSize: 18,
+              fontWeight: FontWeight.w400,
+              color: AppSettings().theme.primary,
+            ),
+          ),
+        ),
       ),
     );
   }

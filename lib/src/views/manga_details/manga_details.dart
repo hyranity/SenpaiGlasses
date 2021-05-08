@@ -8,6 +8,7 @@ import 'package:senpai_glasses/src/models/mangadex/manga_chapters.dart';
 import 'package:senpai_glasses/src/models/myanimelist/mal_manga.dart';
 import 'package:senpai_glasses/src/util/app_settings.dart';
 import 'package:senpai_glasses/src/util/test.dart';
+import 'package:senpai_glasses/src/common/ui/tab_row.dart';
 import 'package:transparent_image/transparent_image.dart';
 
 import 'manga_body.dart';
@@ -30,6 +31,8 @@ class _MangaDetailsState extends State<MangaDetails> {
   String savedMangaId;
   Future<MALManga> malManga;
   Future<MangaChaptersResponseList> mangaChaptersResponseList;
+
+  double mangaBodyHeight = 0;
 
   void loadMalManga() async {
     // Only load manga if different ID
@@ -111,9 +114,13 @@ class _MangaDetailsState extends State<MangaDetails> {
     AsyncSnapshot<MangaChaptersResponseList> chaptersSnapshot,
   ) {
     var malManga = malMangaSnapshot.data;
-    var manga = MangaDetails.mangaResponse;
-    var chapters = chaptersSnapshot.data.results;
+    var manga = MangaDetails.mangaResponse.data.attributes;
+    var chapters = chaptersSnapshot.data;
 
-    return MangaBody(malManga: malManga);
+    return MangaBody(
+      malManga: malManga,
+      manga: manga,
+      chapters: chapters,
+    );
   }
 }

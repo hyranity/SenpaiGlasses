@@ -12,13 +12,9 @@ class MainBody extends StatefulWidget {
 
 class _MainBodyState extends State<MainBody>
     with SingleTickerProviderStateMixin {
-  TabController controller;
-
   @override
   void initState() {
     super.initState();
-    controller =
-        TabController(vsync: this, length: AppSettings().headerPages.length);
   }
 
   @override
